@@ -1,0 +1,44 @@
+.essContainer{
+    padding-bottom: 200px;
+    margin-bottom: 200px;
+    .containerImg{
+        position: relative;
+        &::after{
+            content: "";
+            background: url("/assets/images/container.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            left: 4vw;
+            width: 44vw;
+            max-width: 633px;
+            height: 100%;
+            bottom: -28vh;
+        }
+    } 
+    .essContent{
+        max-width: 769px;
+        width: 100%;
+        margin-bottom: 35px;
+        h5{
+            font-size: 80px;
+            letter-spacing: -2px;
+            color: #565656;
+            font-weight: bold;
+            line-height: 92px;
+            margin-bottom: 0px;
+        }
+        span{
+            color: #565656;
+            letter-spacing: -0.55px;
+            font-size: 22px;
+            font-weight: 300;
+            margin-bottom: 10px;
+            display: block;
+        }
+        p{
+            color: #9B9B9B;
+            font-weight: 300;
+        }
+    }
+}

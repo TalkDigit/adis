@@ -1,0 +1,51 @@
+.HomeEnergy{
+    position: relative;
+    height: 100vh;
+    &:after{
+        content: "";
+        background: url("/assets/images/banner.png") no-repeat center center;
+        background-size: cover; /* Görselin genişlik ve yükseklik oranını bozmadan alanı kaplamasını sağlar */
+        position: absolute;
+        top: 280px; /* Üst kısmını sabitler */
+        left: 50%; /* Yatayda merkezler */
+        transform: translateX(-50%); /* Görseli yatayda tam ortalar */
+        width: 100%; /* Genişliği %100 yaparak ekranla uyumlu hale getirir */
+        height: 1100px;
+        bottom: 0;
+        pointer-events: none;
+    }
+    .energyContent{
+        max-width: 546px;
+        width: 100%;
+        span{
+            font-size: 30px;
+            color: #565656;
+            font-weight: 300;
+            letter-spacing: -1.2px;
+        }
+        h2{
+            font-size: 60px;
+            letter-spacing: -2.4px;
+            color: #565656;
+            font-weight: bold;
+            line-height: 60px;
+            margin-bottom: 26px;
+        }
+        p{
+            color: #9B9B9B;
+            font-weight: 300;
+            max-width: 370px;
+            width: 100%;
+            margin-bottom: 28px;
+        }
+        a{
+            letter-spacing: -0.64px;
+            color: #0D4282;
+            display: flex;
+            align-items: center;
+            svg{
+                margin-left: 10px;
+            }
+        }
+    }
+}

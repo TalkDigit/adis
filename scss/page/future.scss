@@ -1,0 +1,40 @@
+.HomeFuture{
+    border-radius: 45px;
+    background: url("/assets/images/future.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1720px;
+    width:100%;
+    margin:0 auto;
+    .futureContent{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 156px 0px;
+        padding-bottom: 190px;
+        h3{
+            font-size: 45px;
+            color: #4E4E4E;
+            letter-spacing: -1.8px;
+            font-weight: 400;
+            line-height: 30px;
+        }
+        .futureBottom{
+            display: flex;
+            align-items: center;
+            b{
+                font-size: 45px;
+                color: #4E4E4E;
+                font-weight: bold;
+            }
+            p{  
+                max-width: 761px;
+                empty-cells: 100%;
+                color: #9B9B9B;
+                margin-left: 20px;
+                font-weight: 300;
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
