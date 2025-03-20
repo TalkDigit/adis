@@ -1,0 +1,10 @@
+{
+    "uid": "adis",
+    "append": true,
+    "watch": true,
+    "script": "index.mjs",
+    "sourceDir": "/var/www/development/adis/.output/server",
+    "logFile": "/var/log/forever.log",
+    "outFile": "/var/log/out.log",
+    "errFile": "/var/log/error.log"
+}
