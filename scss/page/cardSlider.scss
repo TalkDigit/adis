@@ -43,7 +43,7 @@
         }
         &:before{
             content: "";
-            background: #9FCA3C;
+            background: transparent linear-gradient(170deg, #9FCA3C  0%, #56B382  100%) 0% 0% no-repeat padding-box;            position: absolute;
             position: absolute;
             width: 100%;
             height: 100%;

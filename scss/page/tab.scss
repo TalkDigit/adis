@@ -1,0 +1,168 @@
+.homeTab{
+    position: relative;
+    height: 1300px;
+
+    &:after{
+        content: "";
+        background: url("/assets/images/after.webp");
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        bottom: 70px;
+        z-index: 1;
+        left: 1px;
+        pointer-events: none;
+    }
+    &:before{
+        content: "";
+        background: url("/assets/images/before.webp");
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: -153px;
+        z-index: -1;
+    }
+    h5{
+        font-size: 30px;
+        color: #3E3E3E;
+        max-width: 287px;
+        width: 100%;
+        margin-bottom: 30px;
+        margin-top: 120px;
+    }
+    p{
+        color: #9B9B9B;
+        font-weight: 300;
+        max-width: 400px;
+        width: 100%;
+    }
+    .contentFlex{
+        padding: 40px;
+        .div{
+            display: flex;
+            align-items: center;
+           p{
+            max-width: 100%;
+            text-align: start;
+            color: #9B9B9B;
+            font-size: 16px;
+            margin-bottom: 0px;
+           }
+            svg{
+                height: 39px;
+                width: 39px;
+                margin-right: 10px;
+            }
+        }
+    }
+    .circleTab{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .power-capacity{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #EBECED;
+            height: 100%;
+            width: 100%;
+            max-width: 164px;
+            height: 164px;
+            border-radius: 100%;
+            small{
+                font-size: 16px;
+                color: #565656;
+                line-height: 19px;
+                margin-bottom: 4px;
+            }
+            .capacity-value{
+                color: #9EC63B;
+                font-size: 22px;
+                font-weight: bold;
+                font-size: 22px;
+                letter-spacing:  -1.32px;
+                line-height: 37px;
+                .counter{
+                    letter-spacing:  -1.32px;
+                    color: #9EC63B;
+                    font-size: 34px;
+                    font-weight: bold;
+                }
+            }
+            .capacity-label{
+                letter-spacing: -1.56px;
+                color: #9EC63B;
+                font-size: 23px;
+                line-height: 19px;
+                font-weight: bold;
+                span{
+                    font-size: 16px;
+                }
+            }
+           
+        }
+    }
+    .tabs-container {
+        width: 100%;
+        max-width: 930px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .tabs {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    
+    .tab-title {
+        flex: 1;
+        padding: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+        text-align: start;
+        font-weight: 500;
+        font-size: 16px;
+        box-shadow: 0px 10px 40px #00000029;
+        width: 185px;
+        color: #9b9b9b;
+        height: 95px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        position: relative;
+    
+        svg {
+            display: none;
+        }
+    
+        &.active {
+            font-weight: 500;
+            background: #a1ca3c;
+            color: white;
+            height: 114px;
+    
+            svg {
+                display: block;
+                position: absolute;
+                bottom: 20px;
+            }
+        }
+    }
+    
+    .tab-content {
+        padding: 15px;
+        position: relative;
+        background: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0) 100%);
+        box-shadow:  
+            10px 0px 40px rgba(0, 0, 0, 0.2),  
+            -10px 0px 40px rgba(0, 0, 0, 0.2);
+        mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+        overflow: hidden;
+    }
+    
+ 
+}

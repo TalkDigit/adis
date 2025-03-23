@@ -10,6 +10,9 @@
                         <a href="#">Go details <IconsRight/></a>
                     </div>
                 </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 afterImg" >
+                    <img src="/assets/images/sliderImg.png" alt=""/>
+                </div>
             </div>
         </div>
     </section>

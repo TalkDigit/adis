@@ -1,0 +1,48 @@
+.homeMore{
+    background: white;
+    padding: 112px 0px;
+    margin-top: -70px;
+    h5{
+        font-size: 60px;
+        color: #464646;
+        font-weight: 100;
+        margin-bottom: 115px;
+        b{
+            font-weight: bold;
+        }
+    }
+    .moreFlex{
+        a{
+            display: flex;
+            align-items: center;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #D8D8D8;
+            margin-bottom: 80px;
+            &:hover{
+                border-bottom: 2px solid #A0CA3B; 
+                svg{
+                    display: block;
+                }
+                span{
+                    color: #A0CA3B;
+                }
+            }
+            span{
+                font-size: 16px;
+                line-height: 18px;
+                color: #585858;
+                max-width: 210px;
+                width: 100%;
+                
+            }
+            svg{
+                width: 38px;
+                height: 38px;
+                margin-right: 14px;
+                display: block;
+                display: none;
+            }
+        }
+     
+    }
+}

@@ -1,0 +1,19 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3052 3052" width="3052" height="3052">
+	<title>el1</title>
+	<defs>
+		<image width="2776" height="2776" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNzc2IiBoZWlnaHQ9IjI3NzYiIHZpZXdCb3g9IjAgMCAyNzc2IDI3NzYiPgogIDxnIGlkPSJFbGxpcHNlXzE4IiBkYXRhLW5hbWU9IkVsbGlwc2UgMTgiIGZpbGw9IiNlYmVjZWQiIHN0cm9rZT0iI2M3YzdjNyIgc3Ryb2tlLXdpZHRoPSIxIj4KICAgIDxjaXJjbGUgY3g9IjEzODgiIGN5PSIxMzg4IiByPSIxMzg4IiBzdHJva2U9Im5vbmUiLz4KICAgIDxjaXJjbGUgY3g9IjEzODgiIGN5PSIxMzg4IiByPSIxMzg3LjUiIGZpbGw9Im5vbmUiLz4KICA8L2c+Cjwvc3ZnPgo="/>
+		<image width="2530" height="2530" id="img2" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTMwIiBoZWlnaHQ9IjI1MzAiIHZpZXdCb3g9IjAgMCAyNTMwIDI1MzAiPgogIDxnIGlkPSJFbGxpcHNlXzIwIiBkYXRhLW5hbWU9IkVsbGlwc2UgMjAiIGZpbGw9IiNlYmVjZWQiIHN0cm9rZT0iI2M3YzdjNyIgc3Ryb2tlLXdpZHRoPSIxIj4KICAgIDxjaXJjbGUgY3g9IjEyNjUiIGN5PSIxMjY1IiByPSIxMjY1IiBzdHJva2U9Im5vbmUiLz4KICAgIDxjaXJjbGUgY3g9IjEyNjUiIGN5PSIxMjY1IiByPSIxMjY0LjUiIGZpbGw9Im5vbmUiLz4KICA8L2c+Cjwvc3ZnPgo="/>
+		<image width="2228" height="2228" id="img3" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMjI4IiBoZWlnaHQ9IjIyMjgiIHZpZXdCb3g9IjAgMCAyMjI4IDIyMjgiPgogIDxnIGlkPSJFbGxpcHNlXzIxIiBkYXRhLW5hbWU9IkVsbGlwc2UgMjEiIGZpbGw9IiNlYmVjZWQiIHN0cm9rZT0iI2M3YzdjNyIgc3Ryb2tlLXdpZHRoPSIxIj4KICAgIDxjaXJjbGUgY3g9IjExMTQiIGN5PSIxMTE0IiByPSIxMTE0IiBzdHJva2U9Im5vbmUiLz4KICAgIDxjaXJjbGUgY3g9IjExMTQiIGN5PSIxMTE0IiByPSIxMTEzLjUiIGZpbGw9Im5vbmUiLz4KICA8L2c+Cjwvc3ZnPgo="/>
+	</defs>
+	<style>
+		.s0 { fill: #ebeced } 
+		.s1 { fill: none;stroke: #c7c7c7 } 
+	</style>
+	<g id="Ellipse_19">
+		<path fill-rule="evenodd" class="s0" d="m1526 3052c-843.9 0-1526-682.1-1526-1526 0-843.9 682.1-1526 1526-1526 843.9 0 1526 682.1 1526 1526 0 843.9-682.1 1526-1526 1526z"/>
+		<path fill-rule="evenodd" class="s1" d="m1526 3051.5c-843.6 0-1525.5-681.9-1525.5-1525.5 0-843.6 681.9-1525.5 1525.5-1525.5 843.6 0 1525.5 681.9 1525.5 1525.5 0 843.6-681.9 1525.5-1525.5 1525.5z"/>
+		<use id="el2" href="#img1" transform="matrix(1,0,0,1,138,138)"/>
+		<use id="el3" href="#img2" transform="matrix(1,0,0,1,261,261)"/>
+		<use id="el4" href="#img3" transform="matrix(1,0,0,1,412,412)"/>
+	</g>
+</svg>

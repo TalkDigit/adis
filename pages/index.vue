@@ -2,8 +2,12 @@
     <div>
         <ModuleHomeSlider/>
         <ModuleHomeFuture/>
-        <ModuleCardslider/>
-        <ModuleEnergy/>
-        <ModuleEss/>
+        <ModuleHomeCardslider/>
+        <ModuleHomeEnergy/>
+        <ModuleHomeEss/>
+        <ModuleHomeTabSection/>
+        <ModuleHomeMore/>
+        <ModuleHomeSocial/>
+        
     </div>
 </template>
