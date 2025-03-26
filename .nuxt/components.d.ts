@@ -2,7 +2,8 @@
 import type { DefineComponent, SlotsType } from 'vue'
 type IslandComponent<T extends DefineComponent> = T & DefineComponent<{}, {refresh: () => Promise<void>}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, SlotsType<{ fallback: { error: unknown } }>>
 interface _GlobalComponents {
-      'IconsFacebook': typeof import("../components/Icons/facebook.vue")['default']
+      'CustomSlider': typeof import("../components/CustomSlider.vue")['default']
+    'IconsFacebook': typeof import("../components/Icons/facebook.vue")['default']
     'IconsGray': typeof import("../components/Icons/gray.vue")['default']
     'IconsGreenok': typeof import("../components/Icons/greenok.vue")['default']
     'IconsHeadset': typeof import("../components/Icons/headset.vue")['default']
@@ -32,6 +33,7 @@ interface _GlobalComponents {
     'ModuleHomeTab': typeof import("../components/module/HomeTab.vue")['default']
     'ModuleHomeTabSection': typeof import("../components/module/HomeTabSection.vue")['default']
     'ModuleSocialSlider': typeof import("../components/module/SocialSlider.vue")['default']
+    'ModuleSocialSlidersss': typeof import("../components/module/SocialSlidersss.vue")['default']
     'ModuleExampleListModule': typeof import("../components/module/exampleListModule.vue")['default']
     'ModuleExampleModule': typeof import("../components/module/exampleModule.vue")['default']
     'NuxtWelcome': typeof import("../node_modules/nuxt/dist/app/components/welcome")['default']
@@ -59,7 +61,8 @@ interface _GlobalComponents {
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'NuxtIsland': typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
     'NuxtRouteAnnouncer': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
-      'LazyIconsFacebook': typeof import("../components/Icons/facebook.vue")['default']
+      'LazyCustomSlider': typeof import("../components/CustomSlider.vue")['default']
+    'LazyIconsFacebook': typeof import("../components/Icons/facebook.vue")['default']
     'LazyIconsGray': typeof import("../components/Icons/gray.vue")['default']
     'LazyIconsGreenok': typeof import("../components/Icons/greenok.vue")['default']
     'LazyIconsHeadset': typeof import("../components/Icons/headset.vue")['default']
@@ -89,6 +92,7 @@ interface _GlobalComponents {
     'LazyModuleHomeTab': typeof import("../components/module/HomeTab.vue")['default']
     'LazyModuleHomeTabSection': typeof import("../components/module/HomeTabSection.vue")['default']
     'LazyModuleSocialSlider': typeof import("../components/module/SocialSlider.vue")['default']
+    'LazyModuleSocialSlidersss': typeof import("../components/module/SocialSlidersss.vue")['default']
     'LazyModuleExampleListModule': typeof import("../components/module/exampleListModule.vue")['default']
     'LazyModuleExampleModule': typeof import("../components/module/exampleModule.vue")['default']
     'LazyNuxtWelcome': typeof import("../node_modules/nuxt/dist/app/components/welcome")['default']
@@ -130,6 +134,7 @@ declare module 'vue' {
   export interface GlobalComponents extends _GlobalComponents { }
 }
 
+export const CustomSlider: typeof import("../components/CustomSlider.vue")['default']
 export const IconsFacebook: typeof import("../components/Icons/facebook.vue")['default']
 export const IconsGray: typeof import("../components/Icons/gray.vue")['default']
 export const IconsGreenok: typeof import("../components/Icons/greenok.vue")['default']
@@ -160,6 +165,7 @@ export const ModuleHomeSocial: typeof import("../components/module/HomeSocial.vu
 export const ModuleHomeTab: typeof import("../components/module/HomeTab.vue")['default']
 export const ModuleHomeTabSection: typeof import("../components/module/HomeTabSection.vue")['default']
 export const ModuleSocialSlider: typeof import("../components/module/SocialSlider.vue")['default']
+export const ModuleSocialSlidersss: typeof import("../components/module/SocialSlidersss.vue")['default']
 export const ModuleExampleListModule: typeof import("../components/module/exampleListModule.vue")['default']
 export const ModuleExampleModule: typeof import("../components/module/exampleModule.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome")['default']
@@ -187,6 +193,7 @@ export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
 export const NuxtRouteAnnouncer: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
+export const LazyCustomSlider: typeof import("../components/CustomSlider.vue")['default']
 export const LazyIconsFacebook: typeof import("../components/Icons/facebook.vue")['default']
 export const LazyIconsGray: typeof import("../components/Icons/gray.vue")['default']
 export const LazyIconsGreenok: typeof import("../components/Icons/greenok.vue")['default']
@@ -217,6 +224,7 @@ export const LazyModuleHomeSocial: typeof import("../components/module/HomeSocia
 export const LazyModuleHomeTab: typeof import("../components/module/HomeTab.vue")['default']
 export const LazyModuleHomeTabSection: typeof import("../components/module/HomeTabSection.vue")['default']
 export const LazyModuleSocialSlider: typeof import("../components/module/SocialSlider.vue")['default']
+export const LazyModuleSocialSlidersss: typeof import("../components/module/SocialSlidersss.vue")['default']
 export const LazyModuleExampleListModule: typeof import("../components/module/exampleListModule.vue")['default']
 export const LazyModuleExampleModule: typeof import("../components/module/exampleModule.vue")['default']
 export const LazyNuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome")['default']

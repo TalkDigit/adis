@@ -8,7 +8,7 @@
         </div>
         <div>
             <div class="lottie">
-            <lottie-player src="/assets/json/circle.json" background="transparent" speed="1" style="width: 100%; max-width:1920px; height: 1920px;" loop autoplay></lottie-player>
+            <!-- <lottie-player src="/assets/json/circle.json" background="transparent" speed="1" style="width: 100%; max-width:1920px; height: 1920px;" loop autoplay></lottie-player> -->
         </div>
             <ModuleSocialSlider/>
         </div>
