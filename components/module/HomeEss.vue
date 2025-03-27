@@ -2,7 +2,7 @@
     <section class="essContainer">
         <div class="container">
             <div class="essContent">
-                <h5>
+                <h5 data-aos="fade-up" data-aos-duration="1000">
                     ESS Konteyneri
                 </h5>
                 <span>

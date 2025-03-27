@@ -1,6 +1,6 @@
 .HomeEnergy{
     position: relative;
-    height: 100vh;
+    height: 1190px;
     .afterImg{
         position: relative;
         &:after{
@@ -55,6 +55,142 @@
             align-items: center;
             svg{
                 margin-left: 10px;
+            }
+        }
+    }
+}
+
+@media(max-width:768px){
+    .afterImg{
+        display: flex;
+        justify-content: flex-end;
+        &:after{
+            content: "" !important;
+            background: url("/assets/images/mobilee.png") !important;
+            width: 252px !important;
+            height: 138px !important;
+            right: 4px !important;
+            bottom: -46px !important;
+        }
+        img{
+            max-width: 315px;
+        }
+    }
+    .HomeEnergy{
+        height: 770px !important;
+        &:after {
+            top: 340px !important;
+            height: 410px !important;
+            background-position: right !important;
+            z-index: 5;
+        }
+        span{
+            font-size: 16px !important;
+            letter-spacing: -0.64px;
+        }
+        h2{
+            font-size: 35px !important;
+            letter-spacing:-1.4px;
+            line-height: 41px !important;
+            margin-bottom: 7px !important
+        }
+        p{
+            font-size: 14px !important;
+            margin-bottom: 9px !important
+        }
+    }
+}
+
+@media(min-width:768px) and (max-width:818px){
+    .afterImg{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 70px;
+        &:after{
+            content: "" !important;
+            background: url("/assets/images/mobilee.png") !important;
+            width: 252px !important;
+            height: 138px !important;
+            right: 4px !important;
+            bottom: -46px !important;
+        }
+        img{
+            max-width: 315px;
+        }
+    }
+    .HomeEnergy{
+        height: 670px !important;
+        &:after {
+            top: 180px !important;
+            height: 490px !important;
+        }
+        span{
+            font-size: 16px !important;
+            letter-spacing: -0.64px;
+        }
+        h2{
+            font-size: 35px !important;
+            letter-spacing:-1.4px;
+            line-height: 41px !important;
+            margin-bottom: 7px !important
+        }
+        p{
+            font-size: 14px !important;
+            margin-bottom: 9px !important
+        }
+    }
+}
+@media(min-width:818px) and (max-width:991px){
+      .afterImg{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 70px;
+        &:after{
+            content: "" !important;
+            background: url("/assets/images/mobilee.png") !important;
+            width: 252px !important;
+            height: 138px !important;
+            right: 4px !important;
+            bottom: -46px !important;
+        }
+        img{
+            max-width: 315px;
+        }
+    }
+    .HomeEnergy{
+        height: 670px !important;
+        &:after {
+            top: 180px !important;
+            height: 490px !important;
+            z-index: 5;
+        }
+        span{
+            font-size: 16px !important;
+            letter-spacing: -0.64px;
+        }
+        h2{
+            font-size: 35px !important;
+            letter-spacing:-1.4px;
+            line-height: 41px !important;
+            margin-bottom: 7px !important
+        }
+        p{
+            font-size: 14px !important;
+            margin-bottom: 9px !important
+        }
+    } 
+}
+@media(min-width:991px) and (max-width:1400px){
+    .HomeEnergy{
+        height: 1020px !important;
+        overflow: hidden;
+        &:after{
+            height: 790px !important;
+            z-index: 5;
+        }
+        .afterImg{
+            &:after{
+                bottom: -27px !important;
             }
         }
     }

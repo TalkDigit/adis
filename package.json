@@ -13,6 +13,7 @@
     "bootstrap": "^5.3.3",
     "jquery": "^3.7.1",
     "nuxt": "^3.12.4",
+    "nuxt-aos": "^1.2.5",
     "slick-carousel": "^1.8.1",
     "swiper": "^11.2.6",
     "vue": "latest"

@@ -132,7 +132,8 @@ const _inlineRuntimeConfig = {
         "switchLocalePathLinkSSR": false,
         "autoImportTranslationFunctions": false
       }
-    }
+    },
+    "aos": {}
   }
 };
 const envOptions = {

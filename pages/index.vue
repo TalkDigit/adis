@@ -7,7 +7,7 @@
         <ModuleHomeEss/>
         <ModuleHomeTabSection/>
         <ModuleHomeMore/>
-        <ModuleHomeSocial/>
+        <ModuleHomeSocial/> 
         
     </div>
 </template>

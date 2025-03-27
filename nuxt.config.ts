@@ -25,5 +25,5 @@ export default defineNuxtConfig({
     { src: "~/plugins/jquery", mode: "client" },
     { src: "~/plugins/bootstrap.ts", mode: "client" }
   ],
-  modules: ['@pinia/nuxt', '@nuxtjs/i18n']
+  modules: ['@pinia/nuxt', '@nuxtjs/i18n', "nuxt-aos"]
 })

@@ -42,3 +42,213 @@
         }
     }
 }
+
+@media(max-width:768px){
+    .essContainer{
+        padding-bottom: 60px !important;
+        margin-bottom: 0px !important;
+        .marker[data-line="vertical"]{
+            width: 43px !important;
+            height: 43px !important;
+            top: 15% !important;
+            right: 52% !important;
+        }
+        .marker[data-line="dashed-diagonal"]{
+            width: 98px !important;
+            height: 98px !important;
+            bottom: -27% !important;
+            right: 49% !important;
+        }
+        .marker[data-line="dashed-vertical"]{
+            width: 73px !important;
+            height: 73px !important;
+            top: 69% !important;
+            right: 23% !important;
+        }
+        .marker[data-line="diagonal-right"]{
+            width: 105px !important;
+            height: 105px !important;
+            left: 62% !important;
+            top: 26% !important;
+        }
+        .marker[data-line="diagonal-left"]{
+            width: 54px !important;
+            height: 54px !important;
+            top: 5% !important;
+            right: 32% !important;
+        }
+        .marker[data-line="diagonal-right"]::before{
+            height: 23px !important;
+            width: 1px !important;
+            top: 67px !important;
+            left: -5px !important;
+        }
+        .marker[data-line="diagonal-left"]::before{
+            height: 89px !important;
+            width: 1px !important;
+            top: 32px !important;
+            left: -26px !important;
+        }
+
+       
+      
+        .marker[data-line="dashed-diagonal"]::before{
+            height: 18px !important;
+            top: -15px !important;
+            width: 1px !important;
+            left: 28% !important;
+        }
+        .marker[data-line="vertical"]::before{
+            height: 28px !important;
+            top: 39px !important;
+            left: 34% !important;
+        }
+        .marker[data-line="dashed-vertical"]::before{
+            height: 23px !important;
+            width: 1px !important;
+            top: 29px !important;
+            left: -11px !important;
+        }
+
+        
+        .marker {
+            border: 2px solid #9B9B9B !important;
+            z-index: 2 !important;
+            background: linear-gradient(358deg, #FFFFFF, #D7D7D7, #FFFFFF) !important;
+            .label{
+                font-size: 12px !important;
+              
+            }
+        }
+        .containerImg{
+            img{
+                max-width: 333px !important;
+                height: 100% !important;
+                margin-top: 50px !important;
+            }
+            &:after{
+                left: -10vw !important;
+                bottom: -20vh !important;
+            }
+        }
+        .essContent{
+            h5{
+                font-size: 35px !important;
+                line-height: 35px !important;
+                letter-spacing: -0.88px !important;
+                margin-bottom: 12px !important;
+            }
+            span{
+                display: none !important;
+            }
+            p{
+                font-size: 14px !important;
+            }
+        }
+    }
+}
+@media(min-width:768px) and (max-width:992px){
+    .essContainer{
+        padding-bottom: 60px !important;
+        margin-bottom: 0px !important;
+        .marker[data-line="vertical"]{
+            width: 43px !important;
+            height: 43px !important;
+            top: 15% !important;
+            right: 52% !important;
+        }
+        .marker[data-line="dashed-diagonal"]{
+            width: 98px !important;
+            height: 98px !important;
+            bottom: -27% !important;
+            right: 49% !important;
+        }
+        .marker[data-line="dashed-vertical"]{
+            width: 73px !important;
+            height: 73px !important;
+            top: 69% !important;
+            right: 23% !important;
+        }
+        .marker[data-line="diagonal-right"]{
+            width: 105px !important;
+            height: 105px !important;
+            left: 62% !important;
+            top: 26% !important;
+        }
+        .marker[data-line="diagonal-left"]{
+            width: 54px !important;
+            height: 54px !important;
+            top: 5% !important;
+            right: 32% !important;
+        }
+        .marker[data-line="diagonal-right"]::before{
+            height: 23px !important;
+            width: 1px !important;
+            top: 67px !important;
+            left: -5px !important;
+        }
+        .marker[data-line="diagonal-left"]::before{
+            height: 89px !important;
+            width: 1px !important;
+            top: 32px !important;
+            left: -26px !important;
+        }
+
+       
+      
+        .marker[data-line="dashed-diagonal"]::before{
+            height: 18px !important;
+            top: -15px !important;
+            width: 1px !important;
+            left: 28% !important;
+        }
+        .marker[data-line="vertical"]::before{
+            height: 28px !important;
+            top: 39px !important;
+            left: 34% !important;
+        }
+        .marker[data-line="dashed-vertical"]::before{
+            height: 23px !important;
+            width: 1px !important;
+            top: 29px !important;
+            left: -11px !important;
+        }
+
+        
+        .marker {
+            border: 2px solid #9B9B9B !important;
+            z-index: 2 !important;
+            background: linear-gradient(358deg, #FFFFFF, #D7D7D7, #FFFFFF) !important;
+            .label{
+                font-size: 12px !important;
+              
+            }
+        }
+        .containerImg{
+            justify-content: flex-start !important;
+            img{
+                max-width: 483px !important;
+                height: 100% !important;
+                margin-top: 50px !important;
+            }
+            &:after{
+                left: -10vw !important;
+                bottom: -20vh !important;
+            }
+        }
+        .essContent{
+            h5{
+                font-size: 35px !important;
+                line-height: 35px !important;
+                letter-spacing: -0.88px !important;
+                margin-bottom: 12px !important;
+            }
+            span{
+                display: none !important;
+            }
+            p{
+                font-size: 14px !important;
+            }
+        }
+    } 
+}

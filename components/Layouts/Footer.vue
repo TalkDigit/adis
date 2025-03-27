@@ -20,7 +20,50 @@
             </div>
             <div class="footerFlex">
                 <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-sm-12 col-md-12 col-lg-6 desktopNone">
+                        <div class="mailBottom">
+                            <IconsMail />
+                            <a href="mailto:info@adisenerji.com.tr">
+                                info@adisenerji.com.tr
+                                <span>
+                                    E-mail
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6 desktopNone">
+                        <div class="socialFooter">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <IconsFacebook />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <IconsInstagram />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <IconsTwitter />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <IconsLinkedin />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <IconsYoutube />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+               
+                    <div class="col-sm-12 col-md-12 col-lg-6 ">
                         <div class="menuFooter">
                             <ul>
                                 <li>
@@ -92,12 +135,12 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-sm-12 col-md-12 col-lg-6 ">
                         <div class="footer_img">
                             <img src="/assets/images/footerLogo.png" alt="Logo" />
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-sm-12 col-md-6 col-lg-6 socialdiv">
                         <div class="socialFooter">
                             <ul>
                                 <li>
@@ -128,7 +171,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-sm-12 col-md-12 col-lg-6 maildiv">
                         <div class="mailBottom">
                             <IconsMail />
                             <a href="mailto:info@adisenerji.com.tr">

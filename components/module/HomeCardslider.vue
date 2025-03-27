@@ -93,12 +93,14 @@ const breakpoints = {
     slidesPerView: 2.5,
   },
   // when window width is >= 768px
-  768: {
-    slidesPerView: 1.7,
+  500: {
+    slidesPerView: 2.3,
+    spaceBetween:10
   },
   // when window width is < 768px
   0: {
-    slidesPerView: 1,
+    slidesPerView: 1.4,
+    spaceBetween:10
   },
 };
 </script>

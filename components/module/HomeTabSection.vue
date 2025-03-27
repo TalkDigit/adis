@@ -2,8 +2,8 @@
     <section class="homeTab">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <h5>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <h5 data-aos="fade-up" data-aos-duration="1000">
                         The future of renewable energy is bright with us
                     </h5>
                     <p>
@@ -12,7 +12,7 @@
                         Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus praesent maximus diam suscipit, pulvinar suspendisse tempor eu ultricies. Nisi duis ac eros aliquet consectetur consequat. Litora eros fermentum malesuada venenatis netus ornare amet ut.
                     </p>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-8">
+                <div class="col-sm-12 col-md-12 col-lg-8">
                     <ModuleHomeTab/>
                 </div>
             </div>

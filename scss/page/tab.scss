@@ -69,8 +69,8 @@
             background-color: #EBECED;
             height: 100%;
             width: 100%;
-            max-width: 164px;
-            height: 164px;
+            max-width: 160px;
+            height: 160px;
             border-radius: 100%;
             small{
                 font-size: 16px;
@@ -110,7 +110,100 @@
         max-width: 930px;
         margin: auto;
         text-align: center;
+        overflow: hidden;
+        position: relative;
+        height: 900px;
+        &:before{
+            content: "";
+            background: linear-gradient(to bottom, white 0%, rgb(255 255 255 / 99%) 100%);
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            left: 0px;
+            top: 20px;
+            box-shadow:  
+            10px 0px 40px rgba(0, 0, 0, 0.2),  
+            -10px 0px 40px rgba(0, 0, 0, 0.2);
+        mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+        }
+        .map{
+           transform: scale(1.5) translate(170px, 60px);
+           transition: all .3s;
+           .kirklareli, .edirne, .bursa, .canakkale{
+            fill: #D1D1D1;
+            transition: all .3s;
+           }
+        }
+        &.map-0{
+            .map{
+                .bursaPin{
+                    opacity: 1 !important;
+                    transition: all .3s;
+                  }
+                  .bursaAltPin{
+                    opacity: 1 !important;
+                    transition: all .3s;
+                  }
+                .bursa{
+                    fill: #A1CA3C;
+                   }
+             }
+        }
+        &.map-1{
+            .map{
+                transform: scale(2) translate(300px, 90px);
+
+                .kirklareliPin{
+                    opacity: 1 !important;
+                  }
+                  .kirklareliAltPin{
+                    opacity: 1 !important;
+                  }
+
+
+                .kirklareli{
+                    fill: #A1CA3C;
+                }
+             }
+        }
+        &.map-2{
+            .map{
+                transform: scale(1.5) translate(170px, 60px);
+                .canakkale{
+                    fill: #A1CA3C;
+                }
+             }
+        }
     }
+    .pin{
+        font-size:50px;
+        fill: white;
+      }
+      .bursaPin{
+        transform: translate(940px, 771px);
+        opacity: 0;
+          transition: all .3s;
+      }
+      .bursaAltPin{
+        transform: translate(880px, 821px);
+        font-size:40px;
+        opacity: 0;
+          transition: all .3s;
+      }
+      
+      .kirklareliPin{
+        transform: translate(484px, 231px);
+        opacity: 0;
+        font-size:35px;
+          transition: all .3s;
+      }
+      .kirklareliAltPin{
+        transform:translate(460px, 281px);
+        font-size:30px;
+        opacity: 0;
+          transition: all .3s;
+      }
+      
     
     .tabs {
         display: flex;
@@ -157,12 +250,132 @@
         padding: 15px;
         position: relative;
         background: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0) 100%);
-        box-shadow:  
-            10px 0px 40px rgba(0, 0, 0, 0.2),  
-            -10px 0px 40px rgba(0, 0, 0, 0.2);
-        mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+
         overflow: hidden;
     }
-    
- 
+}
+
+
+@media(max-width:768px){
+    .homeTab{
+        height: 100% !important;
+        &:before{
+            content: none !important;
+        }
+        .circleTab{
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding-bottom: 90px !important;
+            gap: 10px;
+        }
+        .power-capacity{
+            background-color: #ebeced70 !important;
+            margin-bottom: 13px !important;
+        }
+        &:after{
+            background-position: bottom !important;
+            bottom: 0px !important;
+            background-repeat: no-repeat !important;
+            background-size: contain !important;
+        }
+        .contentFlex{
+            padding: 30px !important;
+        }
+        .tabs-container{
+            height: 100% !important;
+            .map{
+                display: none !important;
+            }
+            &:before{
+                top: 0 !important;
+            }
+        }
+        p{
+            font-size: 14px !important;
+        }
+        .tabs{
+            flex-direction: column !important;
+            align-items: flex-start !important;
+        }
+        .tab-title{
+            width: 100% !important;
+            font-size: 16px !important;
+            padding: 31px 38px !important;
+            height: 80px !important;
+            br{
+                display: none !important;
+            }
+            svg{
+                bottom: 35px !important;
+                right: 38px;
+            }
+        }
+    }
+}
+
+@media(min-width:768px) and (max-width:992px){
+    .homeTab{
+        height: 100% !important;
+        &:before{
+            content: none !important;
+        }
+        .circleTab{
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding-bottom: 90px !important;
+            gap: 10px;
+        }
+        .power-capacity{
+            background-color: #ebeced70 !important;
+            margin-bottom: 13px !important;
+        }
+        &:after{
+            background-position: bottom !important;
+            bottom: 0px !important;
+            background-repeat: no-repeat !important;
+            background-size: contain !important;
+        }
+        .contentFlex{
+            padding: 30px !important;
+        }
+         .map {
+            transform: scale(1.5) translate(170px, -50px) !important;
+         }
+        .tabs-container{
+            height: 100% !important;
+            .map{
+                display: block !important;
+            }
+            &:before{
+                top: 0 !important;
+            }
+        }
+        h5{
+            max-width: 100% !important;
+        }
+        p{
+            font-size: 14px !important;
+            margin-bottom: 50px !important;
+            max-width: 100% !important;
+        }
+        .tabs{
+            flex-direction: column !important;
+            align-items: flex-start !important;
+        }
+        .tab-title{
+            width: 100% !important;
+            font-size: 16px !important;
+            padding: 31px 38px !important;
+            height: 80px !important;
+            br{
+                display: none !important;
+            }
+            svg{
+                bottom: 35px !important;
+                right: 38px;
+            }
+        }
+    }
 }

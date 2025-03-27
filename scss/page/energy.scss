@@ -85,3 +85,119 @@
         }
     }
 }
+
+
+
+@media(max-width:768px){
+    .energySection{
+        margin: 0px !important;
+        
+        .energyContent {
+            padding: 33px !important;
+            height: 100% !important;
+            .energyIcon{
+                width: 145px !important;
+                height: 145px !important;
+            }
+            &:before{
+                border-radius: 40px !important;
+                background: transparent linear-gradient(180deg, #F7F7F7 0%, #F7F7F700 100%) 0% 0% no-repeat padding-box !important;
+            }
+            h4 {
+                font-size: 22px !important;
+                letter-spacing: -0.88px !important;
+            }
+            p{
+                font-size: 12px !important;
+            }
+        }
+    }
+}
+@media(min-width:768px) and (max-width:992px){
+    .energySection{
+        .row{
+            display: flex;
+            justify-content: center;
+        }
+        .energyContent {
+            padding: 33px !important;
+            height: 100% !important;
+            .energyIcon{
+                width: 145px !important;
+                height: 145px !important;
+            }
+            &:before{
+                border-radius: 40px !important;
+                background: transparent linear-gradient(180deg, #F7F7F7 0%, #F7F7F700 100%) 0% 0% no-repeat padding-box !important;
+            }
+            h4 {
+                font-size: 22px !important;
+                letter-spacing: -0.88px !important;
+            }
+            p{
+                font-size: 12px !important;
+            }
+        }
+    }
+}
+@media(min-width:991px) and (max-width:1600px){
+    .HomeEnergy{
+        overflow: hidden;
+    }
+    .energySection{
+        .row{
+            display: flex;
+            justify-content: center;
+        }
+        .energyContent {
+            padding: 33px !important;
+            height: 100% !important;
+            .energyIcon{
+                width: 145px !important;
+                height: 145px !important;
+            }
+            &:before{
+                border-radius: 40px !important;
+                background: transparent linear-gradient(180deg, #F7F7F7 0%, #F7F7F700 100%) 0% 0% no-repeat padding-box !important;
+            }
+        }
+    }
+    footer .container:before {
+        content: "" !important;
+        position: absolute;
+        left: 0px;
+        top: -260px !important;
+        width: 100%;
+        height: 300px !important;
+        z-index: -1;
+        background: url(/assets/images/footerlogoo.svg) !important;
+        background-size: cover !important;
+    }
+    footer .sendFooter .input-container{
+        max-width: 712px !important;
+    }
+    footer .footerFlex .menuFooter ul li a{
+        font-size: 14px !important;
+    }
+    footer .footerFlex .footer_img img {
+        max-width: 300px !important;
+    }
+    .lottie-player{
+        margin-top: 0px !important;
+    }
+    .power-capacity{
+        margin-bottom: 10px;
+        max-width: 140px !important;
+        height: 140px !important;
+        small{
+            font-size: 14px !important
+        }
+        .counter{
+            font-size: 28px !important
+        }
+    }
+    .homeTab .tab-title{
+        font-size: 13px !important;
+    }
+}
+

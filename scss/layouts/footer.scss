@@ -20,7 +20,7 @@ footer{
         width: 100%;
         height: 895px;
         filter: blur(6px);
-        top: -67%;
+        top: -57%;
         z-index: -1;
     }
     .sendFooter{
@@ -171,5 +171,235 @@ footer{
                 }
             }
         }
+    }
+    .desktopNone{
+        display: none;
+    }
+}
+
+
+@media(max-width:768px){
+    footer{
+        padding-bottom: 50px ;
+        &:after{
+            position: absolute;
+            left: 0px;
+            width: 100%;
+            height: 1115px !important;
+            filter: blur(3px);
+            top: -250px !important;
+            z-index: -1;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position-x: -550px;
+            background-position-y: -330px;
+        }
+        .container{
+            &:before{
+                content: "" !important;
+                background: url("/assets/images/bb.svg");
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 100%;
+                background-size: contain;
+                left: 0px !important;
+                top: -160px !important;
+            }
+        }
+        .input-container{
+            margin-bottom: 12px !important;
+            padding: 9px 10px;
+          
+        }
+        .desktopNone{
+            display: block;
+        }
+        .mailBottom {
+            align-items: center !important;
+            margin-top: 0px !important;
+            justify-content: center !important;
+            margin-bottom: 43px;
+        }
+      .socialFooter ul {
+            justify-content: center !important;
+            margin-bottom: 52px !important;
+            li{
+                margin-right: 13px !important
+            }
+        }
+        .sendContact{
+            border-radius: 22px !important;
+            background: white;
+            padding: 9px 10px;
+            a{
+                font-size: 22px !important;
+                line-height: 22px !important;
+            }
+            span{
+                font-size: 14px !important;
+            }
+            div{
+                width: 62px !important;
+                height: 62px !important;
+                border-radius: 18px !important;
+                box-shadow: 0px 5px 30px #ABDE016C;
+            }
+        }
+        .sendFooter{
+            background: transparent;
+            flex-direction: column-reverse;
+            border-radius: 22px !important;
+            padding: 0px !important;
+            width: 100%;
+            margin-bottom: 90px !important;
+            button{
+                width: 62px !important;
+                height: 62px !important;
+                font-size: 0px;
+                border-radius: 18px !important;
+                svg{
+                    margin-right: 0px !important;
+                }
+            }
+        }
+        .menuFooter{
+            justify-content: center !important;
+            flex-wrap: wrap !important;
+            ul{
+                width: 41%;
+                li{
+                    a{
+                        font-size: 14px !important;
+                    }
+                }
+            }
+        }
+    }
+    .socialdiv{
+        display: none;
+    }
+    .maildiv{
+        display: none;
+    }
+    .footer_img{
+        justify-content: center !important;
+        margin-top: 43px;
+        img{
+            max-width: 300px !important;
+        }
+    }
+}
+@media(min-width:768px) and (max-width:992px){
+    footer{
+        padding-bottom: 50px ;
+        &:after{
+            position: absolute;
+            left: 0px;
+            width: 100%;
+            height: 1115px !important;
+            filter: blur(3px);
+            top: -250px !important;
+            z-index: -1;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position-x: -550px;
+            background-position-y: -330px;
+        }
+        .container{
+            &:before{
+                content: "" !important;
+                background: url("/assets/images/bb.svg");
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 100%;
+                background-size: contain;
+                left: 0px !important;
+                top: -160px !important;
+            }
+        }
+        .input-container{
+            margin-bottom: 12px !important;
+            padding: 9px 10px;
+          
+        }
+        .desktopNone{
+            display: block;
+        }
+        .mailBottom {
+            align-items: center !important;
+            margin-top: 0px !important;
+            justify-content: center !important;
+            margin-bottom: 0px;
+        }
+      .socialFooter ul {
+            justify-content: center !important;
+            margin-bottom: 52px !important;
+            li{
+                margin-right: 13px !important
+            }
+        }
+        .sendContact{
+            border-radius: 22px !important;
+            background: white;
+            padding: 9px 10px;
+            a{
+                font-size: 22px !important;
+                line-height: 22px !important;
+            }
+            span{
+                font-size: 14px !important;
+            }
+            div{
+                width: 62px !important;
+                height: 62px !important;
+                border-radius: 18px !important;
+                box-shadow: 0px 5px 30px #ABDE016C;
+            }
+        }
+        .sendFooter{
+            background: transparent;
+            flex-direction: column-reverse;
+            border-radius: 22px !important;
+            padding: 0px !important;
+            width: 100%;
+            margin-bottom: 90px !important;
+            button{
+                width: 62px !important;
+                height: 62px !important;
+                font-size: 0px;
+                border-radius: 18px !important;
+                svg{
+                    margin-right: 0px !important;
+                }
+            }
+        }
+        .menuFooter{
+            justify-content: center !important;
+            flex-wrap: wrap !important;
+            ul{
+                width: 41%;
+                li{
+                    a{
+                        font-size: 14px !important;
+                    }
+                }
+            }
+        }
+    }
+    .socialdiv{
+        display: none;
+    }
+    .maildiv{
+        display: none;
+    }
+    .footer_img{
+        justify-content: center !important;
+        margin-top: 43px;
+        img{
+            max-width: 300px !important;
+        }
+    }
+    .menuFooter ul li{
+        text-align: center;
     }
 }

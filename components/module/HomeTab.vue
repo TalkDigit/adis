@@ -1,103 +1,171 @@
 <template>
-    <div class="tabs-container">
+    <div class="tabs-container" :class="`map-${activeTab}`">
         <div class="tabs">
-            <div class="tab-title" :class="{ active: activeTab === 0 }" @click="activeTab = 0">
+            <div class="tab-title bursa" :class="{ active: !activeTab }" @click="activeTab = 0">
                 Güngören <br />
                 Depolamalı RES <IconsRightold />
             </div>
-            <div class="tab-title" :class="{ active: activeTab === 1 }" @click="activeTab = 1">
+            <div class="tab-title kirklareli" :class="{ active: activeTab === 1 }" @click="activeTab = 1">
                 Armağan <br />
                 Depolamalı RES <IconsRightold />
             </div>
-            <div class="tab-title" :class="{ active: activeTab === 2 }" @click="activeTab = 2">
+
+            <div class="tab-title yenice" :class="{ active: activeTab === 2 }" @click="activeTab = 2">
                 Yenice <br />
                 Depolamalı RES <IconsRightold />
             </div>
-            <div class="tab-title" :class="{ active: activeTab === 3 }" @click="activeTab = 3">
+
+            <div class="tab-title kislacik" :class="{ active: activeTab === 3 }" @click="activeTab = 3">
                 Kışlacık <br />
                 Depolamalı RES <IconsRightold />
             </div>
-            <div class="tab-title" :class="{ active: activeTab === 4 }" @click="activeTab = 4">
+
+            <div class="tab-title kislacik" :class="{ active: activeTab === 4 }" @click="activeTab = 4">
                 Bildim <br />
                 Depolamalı GES <IconsRightold />
             </div>
         </div>
-        <div class="tab-content" v-show="activeTab === 0">
-            <div class="contentFlex">
-              <div class="div">
-                <IconsInfo/>
-                <p>
-                   
-                    Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus praesent maximus diam suscipit, pulvinar suspendisse tempor eu ultricies.
-                </p>
-              </div>
+
+        <!-- Dinamik Tab İçerikleri -->
+        <div v-for="(tabData, index) in tabsData" :key="index">
+            <div class="tab-content" v-show="activeTab === index">
+                <div class="contentFlex">
+                    <div class="div">
+                        <IconsInfo />
+                        <p>{{ tabData.description }}</p>
+                    </div>
+                </div>
+                <div class="circleTab">
+                    <div class="power-capacity">
+                        <small>Kurulu Güç</small>
+                        <span class="capacity-value"> <span class="counter">{{ tabData.power }}</span> MWe </span>
+                        <label class="capacity-label"><span>%</span>{{ tabData.percentage }}</label>
+                    </div>
+
+                    <div class="power-capacity">
+                        <small>Yıllık Üretim</small>
+                        <span class="capacity-value">
+                            <span class="counter">{{ tabData.production }}</span>
+                        </span>
+                        <label class="capacity-label">Milyon kWh</label>
+                    </div>
+
+                    <div class="power-capacity">
+                        <small>
+                            Aydınlattığı <br />
+                            Hane Sayısı
+                        </small>
+                        <span class="capacity-value">
+                            <span class="counter">{{ tabData.households }}</span>
+                        </span>
+                    </div>
+
+                    <div class="power-capacity">
+                        <small>
+                            Azalttığı <br />
+                            Emisyon miktarı
+                        </small>
+                        <span class="capacity-value">
+                            <span class="counter">{{ tabData.emission }}</span>
+                        </span>
+                        <label class="capacity-label">Ton/Yıl</label>
+                    </div>
+
+                    <div class="power-capacity">
+                        <small>
+                            Devreye <br />
+                            Alınma Tarihi
+                        </small>
+                        <span class="capacity-value">
+                            <span class="counter">{{ tabData.date }}</span>
+                        </span>
+                    </div>
+                </div>
             </div>
-            <div class="circleTab">
-                <div class="power-capacity">
-                    <small>Kurulu Güç</small>
-                    <span class="capacity-value"> <span class="counter">100</span> MWe </span>
-                    <label class="capacity-label"><span>%</span>43</label>
-                </div>
+        </div>
 
-                <div class="power-capacity">
-                    <small>Yıllık Üretim</small>
-                    <span class="capacity-value">
-                        <span class="counter">376 </span>
-                    </span>
-                    <label class="capacity-label">Milyon kWh</label>
-                </div>
-
-                <div class="power-capacity">
-                    <small>
-                        Aydınlattığı <br />
-                        Hane Sayısı
-                    </small>
-                    <span class="capacity-value">
-                        <span class="counter">150.400</span>
-                    </span>
-                </div>
-
-                <div class="power-capacity">
-                    <small>
-                        Azalttığı <br />
-                        Emisyon miktarı
-                    </small>
-                    <span class="capacity-value">
-                        <span class="counter">315.000 </span>
-                    </span>
-                    <label class="capacity-label">Ton/Yıl</label>
-                </div>
-
-                <div class="power-capacity">
-                    <small>
-                        Devreye <br />
-                        Alınma Tarihi
-                    </small>
-                    <span class="capacity-value">
-                        <span class="counter">2026Q1</span>
-                    </span>
-                </div>
-            </div>
-            <img src="/assets/images/adis-map.svg" alt=""/>
-        </div>
-        <div class="tab-content" v-show="activeTab === 1">
-            <p>Bu Tab 2 içeriğidir.</p>
-        </div>
-        <div class="tab-content" v-show="activeTab === 2">
-            <p>Bu Tab 3 içeriğidir.</p>
-        </div>
-        <div class="tab-content" v-show="activeTab === 3">
-            <p>Bu Tab 4 içeriğidir.</p>
-        </div>
-        <div class="tab-content" v-show="activeTab === 4">
-            <p>Bu Tab 5 içeriğidir.</p>
-        </div>
+            <ModuleMapss/>
     </div>
 </template>
 
 <script setup>
-    import { ref } from "vue";
+    import { ref, computed } from "vue";
+
     const activeTab = ref(0);
+
+    // Her tab için özel veriler
+    const tabsData = [
+        {
+            // Bursa Tab
+            description: "Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus praesent maximus diam suscipit, pulvinar suspendisse tempor eu ultricies.",
+            power: 100,
+            percentage: 43,
+            production: 376,
+            households: "150.400",
+            emission: "315.000",
+            date: "2026Q1",
+        },
+        {
+            // Kırklareli Tab
+            description: "Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus praesent maximus diam suscipit, pulvinar suspendisse tempor eu ultricies.",
+            power: 85,
+            percentage: 38,
+            production: 320,
+            households: "125.700",
+            emission: "280.500",
+            date: "2025Q3",
+        },
+
+        {
+            // Kırklareli Tab
+            description: "Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus praesent maximus diam suscipit, pulvinar suspendisse tempor eu ultricies.",
+            power: 85,
+            percentage: 38,
+            production: 320,
+            households: "125.700",
+            emission: "280.500",
+            date: "2025Q3",
+        },
+
+        {
+            // Kırklareli Tab
+            description: "Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus praesent maximus diam suscipit, pulvinar suspendisse tempor eu ultricies.",
+            power: 85,
+            percentage: 38,
+            production: 320,
+            households: "125.700",
+            emission: "280.500",
+            date: "2025Q3",
+        },
+        
+        {
+            // Kırklareli Tab
+            description: "Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus praesent maximus diam suscipit, pulvinar suspendisse tempor eu ultricies.",
+            power: 85,
+            percentage: 38,
+            production: 320,
+            households: "125.700",
+            emission: "280.500",
+            date: "2025Q3",
+        },// Diğer tablar için veriler...
+    ];
+
+    const pathBounds = {
+        0: { x: -350, y: 300, width: 3000, height: 3000 }, // Bursa
+        1: { x: 0, y: 200, width: 1900, height: 1900 }, // Kırklareli
+        // Diğer tablar...
+    };
+
+    const currentViewBox = computed(() => {
+        if (!pathBounds[activeTab.value]) return "0 0 5528.7 2328.5";
+
+        const bounds = pathBounds[activeTab.value];
+        const padding = 100;
+
+        return [bounds.x - padding, bounds.y - padding, bounds.width + padding * 2, bounds.height + padding * 2].join(" ");
+    });
+
+    const setActiveTab = (index) => {
+        activeTab.value = index;
+    };
 </script>
-
-

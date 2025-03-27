@@ -59,6 +59,8 @@ export default {
 
 
 <style lang="scss">
+
+
 .containerImg {
     position: relative;
     display: flex;

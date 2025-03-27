@@ -46,3 +46,34 @@
      
     }
 }
+
+@media(max-width:768px){
+    .homeMore{
+        padding: 62px 0px !important;
+        margin-top: 0px !important;
+        h5{
+            font-size: 35px !important;
+            margin-bottom: 47px !important;
+        }
+        a{
+            margin-bottom: 16px !important;
+            font-size: 16px !important;
+            padding-bottom: 16px !important;
+        }
+    }
+}
+@media(min-width:768px) and (max-width:992px){
+    .homeMore{
+        padding: 62px 0px !important;
+        margin-top: 0px !important;
+        h5{
+            font-size: 35px !important;
+            margin-bottom: 47px !important;
+        }
+        a{
+            margin-bottom: 16px !important;
+            font-size: 16px !important;
+            padding-bottom: 16px !important;
+        }
+    }
+}

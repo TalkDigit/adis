@@ -119,6 +119,12 @@
       "#i18n": [
         "../node_modules/@nuxtjs/i18n/dist/runtime/composables/index"
       ],
+      "#aos": [
+        "../node_modules/nuxt-aos/dist/runtime"
+      ],
+      "#aos/*": [
+        "../node_modules/nuxt-aos/dist/runtime/*"
+      ],
       "#vue-router": [
         "../node_modules/vue-router"
       ],
@@ -126,7 +132,7 @@
         "./imports"
       ],
       "#app-manifest": [
-        "./manifest/meta/dev"
+        "./manifest/meta/dev.json"
       ],
       "#build": [
         "."
@@ -172,6 +178,7 @@
     "../**/*",
     "../node_modules/@pinia/nuxt/runtime",
     "../node_modules/@nuxtjs/i18n/runtime",
+    "../node_modules/nuxt-aos/runtime",
     "../node_modules/@nuxt/devtools/runtime",
     "../node_modules/@nuxt/telemetry/runtime",
     ".."
@@ -182,6 +189,7 @@
     "../node_modules/nuxt/node_modules",
     "../node_modules/@pinia/nuxt/runtime/server",
     "../node_modules/@nuxtjs/i18n/runtime/server",
+    "../node_modules/nuxt-aos/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",
     "../.output"
