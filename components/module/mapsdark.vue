@@ -848,4 +848,42 @@
 .textMap.b{
     font-weight:bold !important
 }
+
+
+.map11 {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 1s ease-out forwards;
+}
+
+.imageAnim {
+    opacity: 0;
+    transform: scale(0.5);
+    animation: scaleIn 1s ease-out forwards 0.5s;
+}
+
+.textMap {
+    opacity: 0;
+    transform: translateX(20px);
+    animation: slideIn 0.8s ease-out forwards 1s;
+}
+
+/* Animasyonlar */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scaleIn {
+    from { opacity: 0; transform: scale(0.5); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes slideIn {
+    from { opacity: 0; transform: translateX(20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
 </style>
+
+

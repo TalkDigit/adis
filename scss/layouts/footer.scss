@@ -150,6 +150,26 @@ footer{
                     align-items: center;
                     margin-right: 20px;
                     justify-content: center;
+                    svg{
+                        path{
+                            transition: all .3s;
+                        }
+                        rect{
+                            transition: all .3s;
+                        }
+                    }
+                    &:hover{
+                        svg{
+                            path{
+                                fill: #0C4282;
+                                transition: all .3s;
+                            }
+                            rect{
+                                fill: #0C4282;
+                                transition: all .3s;
+                            }
+                        }
+                    }
                 }
             }
         }

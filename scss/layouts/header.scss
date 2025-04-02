@@ -155,6 +155,7 @@ header {
         display: block;
         width: 100%;
         max-width: 160px;
+        z-index: 2;
       }
       .headerRight {
         justify-content: space-between;
@@ -185,7 +186,6 @@ header {
         ul.active {
           transform: translateY(0);
           opacity: 1;
-          z-index: -1;
           visibility: visible;
           max-height: 380px;
           padding: 290px 0;
@@ -218,37 +218,39 @@ a{
 body{
   background-color: #EBECED !important;
 }
-
-ul{
-  li{
-    position: relative;
-    a{
-      transition: color 0.3s ease-in-out;
-  
-    &::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      height: 2px;
-      background-color: #000;
-      transform: scaleX(0);
-      transform-origin: right;
-      transition: transform 0.3s ease-in-out;
-  }
-
-  &:hover {
-      color: #0C4282 !important;
-
+.headerRight{
+  ul{
+    li{
+      position: relative;
+      a{
+        transition: color 0.3s ease-in-out;
+    
       &::after {
-          transform: scaleX(1);
-          transform-origin: left;
-      }
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 2px;
+        background-color: #000;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.3s ease-in-out;
+    }
+  
+    &:hover {
+        color: #0C4282 !important;
+  
+        &::after {
+            transform: scaleX(1);
+            transform-origin: left;
+        }
+    }
+    }
   }
   }
 }
-}
+
 
 @media(max-width:768px){
   header .headerRight ul li{
