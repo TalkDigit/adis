@@ -15,7 +15,7 @@
     </section>
 </template>
 <style>
-.lottie{
+.socialSection .lottie{
     z-index:-1;
     position:absolute;
 }
@@ -26,12 +26,12 @@
 
 }
 
-.lottie-wrapper {
+.socialSection .lottie-wrapper {
   position: relative;
  
   overflow: hidden; /* Prevent the Lottie animation from overflowing */
 }
-lottie-player{
+.socialSection lottie-player{
     scale:1.8;
     margin-top: 200px;
     opacity: 0.4;

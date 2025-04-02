@@ -9,6 +9,16 @@ export default <RouterConfig> {
       name: 'home',
       path: '/',
       component: home
+    },  
+    {
+      name: 'hakkimizda',
+      path: '/hakkimizda',
+      component: () => import('~/pages/hakkimizda.vue')
+    },
+    {
+      name: 'projects',
+      path: '/projects',
+      component: () => import('~/pages/projects.vue')
     }
     
   ],
