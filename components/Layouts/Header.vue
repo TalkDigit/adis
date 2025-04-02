@@ -2,7 +2,7 @@
     <header>
         <div class="container">
             <div class="headerFlex">
-                <a href="#" class="video">
+                <a href="/" class="video">
                     <video autoplay loop muted>
                         <source src="/assets/images/logo/logo.mp4" type="video/mp4" />
                     </video>

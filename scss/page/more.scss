@@ -11,40 +11,63 @@
             font-weight: bold;
         }
     }
-    .moreFlex{
-        a{
+    .moreFlex {
+        a {
+            position: relative;
             display: flex;
             align-items: center;
             padding-bottom: 10px;
-            border-bottom: 2px solid #D8D8D8;
             margin-bottom: 80px;
-            &:hover{
-                border-bottom: 2px solid #A0CA3B; 
-                svg{
-                    display: block;
+            transition: all 0.5s;
+            border-bottom: none;
+    
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                width: 0;
+                height: 2px;
+                background-color: #A0CA3B;
+                transition: all 0.5s ease-in-out;
+                transform: translateX(-50%);
+            }
+    
+            svg {
+                width: 38px;
+                height: 38px;
+                margin-right: 14px;
+                opacity: 0;   // Başlangıçta görünmez
+                transform: translateY(-5px); // Hafif yukarıda başlasın
+                transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+            }
+    
+            &:hover {
+                &::after {
+                    width: 100%;
                 }
-                span{
+    
+                svg {
+                    opacity: 1; // Yumuşakça görünür hale gelir
+                    transform: translateY(0); // Normal pozisyonuna iner
+                }
+    
+                span {
                     color: #A0CA3B;
+                    transition: all 0.5s;
                 }
             }
-            span{
+    
+            span {
                 font-size: 16px;
                 line-height: 18px;
                 color: #585858;
                 max-width: 210px;
                 width: 100%;
-                
-            }
-            svg{
-                width: 38px;
-                height: 38px;
-                margin-right: 14px;
-                display: block;
-                display: none;
             }
         }
-     
     }
+    
 }
 
 @media(max-width:768px){

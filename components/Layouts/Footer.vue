@@ -67,13 +67,13 @@
                         <div class="menuFooter">
                             <ul>
                                 <li>
-                                    <a href="#">
+                                    <a href="/aboutUs">
                                         About Us
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
-                                        Referances
+                                    <a href="projects">
+                                        Projects
                                     </a>
                                 </li>
                                 <li>
@@ -112,7 +112,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        Policies
+                                        Contact
                                     </a>
                                 </li>
                             </ul>

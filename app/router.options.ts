@@ -11,14 +11,19 @@ export default <RouterConfig> {
       component: home
     },  
     {
-      name: 'hakkimizda',
-      path: '/hakkimizda',
-      component: () => import('~/pages/hakkimizda.vue')
+      name: 'aboutUs',
+      path: '/aboutUs',
+      component: () => import('~/pages/aboutUs.vue')
     },
     {
       name: 'projects',
       path: '/projects',
       component: () => import('~/pages/projects.vue')
+    },
+    {
+      name: 'contact',
+      path: '/contact',
+      component: () => import('~/pages/contact.vue')
     }
     
   ],
