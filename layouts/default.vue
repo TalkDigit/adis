@@ -2,6 +2,6 @@
     <div>
         <LayoutsHeader/>
         <slot></slot>
-        <LayoutsFooter/>
+        <LayoutsFooter v-if="$route.path !== '/contact'"/>
     </div>
 </template>

@@ -18,6 +18,7 @@
 .socialSection .lottie{
     z-index:-1;
     position:absolute;
+    width: 100%;
 }
 
 .socialSection {

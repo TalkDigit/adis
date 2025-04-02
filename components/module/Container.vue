@@ -69,6 +69,7 @@ export default {
 
     img {
         mix-blend-mode: multiply;
+        background-color: rgba(255, 255, 255, 0.01);
         max-width: 100%;
         height: auto;
     }

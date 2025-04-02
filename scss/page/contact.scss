@@ -1,0 +1,135 @@
+.contact-main{
+    h1{
+        font-size: 45px;
+        letter-spacing: -1.13px;
+        color: #565656;
+        line-height: 40px;
+    }
+    p{
+        font-size: 22px;
+        color: #0C4282;
+        letter-spacing: -0.55px;
+       
+    }
+    .contact-form-personal-info{
+        display: flex;
+        justify-content: space-between;
+    }
+    .submit-btn{
+        border-radius: 20px;
+        background: #0C4282;
+        color: white;
+        padding: 15px;
+        border: none;
+        max-width: 155px;
+        width: 100%;
+        margin-top: 40px;
+        svg{
+            margin-right: 10px;
+        }
+    }
+    .contact-form{
+        input{
+            border: 1px solid #EBEBEB;
+            border-radius: 10px;
+            padding: 17px 15px;
+            max-width: 212px;
+            width: 100%;
+            margin-bottom: 10px;
+           &::placeholder{
+                font-size: 12px !important;
+                color: #C9C9C9 !important;
+            }
+        }
+        textarea{
+            border: 1px solid #EBEBEB;
+            border-radius: 10px;
+            padding: 17px 15px;
+            width: 100% !important;
+            margin-bottom: 26px;
+            &::placeholder{
+                font-size: 12px !important;
+                color: #C9C9C9 !important;
+            }
+        }
+    }
+  
+    .contact-details{
+        margin-top: 40px;
+        .contact-item-content{
+            margin-left: 15px;
+        }
+        a{
+            display: flex;
+            color: #565656;
+            margin-bottom: 20px;
+            h2{
+                font-size: 16px;
+                line-height: 16px;
+                margin-bottom: 0px !important;
+            }
+            p{
+                font-size: 14px;
+                margin-bottom: 0px !important;
+                color: #565656 !important;
+            }
+        }
+    }
+}
+
+
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    cursor: pointer;
+    color: #888888;
+    user-select: none;
+    position: relative;
+}
+
+.custom-checkbox input {
+    display: none;
+}
+
+.checkmark {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #EBEBEB;
+    background: #F7F7F7;
+    border-radius: 4px;
+    margin-right: 10px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.custom-checkbox input:checked + .checkmark {
+    background-color: #0C4282;
+    border-color: #0C4282;
+}
+
+.custom-checkbox input:checked + .checkmark::after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 2px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.contact{
+    &:after{
+        content:"";
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        top: 0px;
+        left: 0px;
+        z-index: -1;
+        background: url(/assets/images/maps.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
