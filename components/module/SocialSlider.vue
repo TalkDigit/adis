@@ -18,8 +18,17 @@
     </div>
 </template>
 
+
+
+
 <script setup>
     import { ref, onMounted } from "vue";
+
+
+    import getData from "@/utilities/getData";
+  import getAssets from "@/utilities/getAssets";
+  const { data } = defineProps(["data"]);
+
 
     const lottieRef1 = ref(null);
 

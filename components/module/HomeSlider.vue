@@ -2,13 +2,17 @@
     <section class="HomeEnergy">
         <div class="container">
             <div class="row">
+
+
                 <div class="col-sm-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="3000">
                     <div class="energyContent">
-                        <span>We use renewable resources.<br> 100% Renewable portfolio we have enough</span>
-                        <h2>ready resources for energy continuity.</h2>
-                        <p>Lorem ipsum odor amet, consec,tetuer adipiscing. Sem viverra taciti et molestie tempor semper vitae.</p>
+                        <span v-if="getData(data, 'baslik')" v-html="getData(data, 'baslik')"></span>
+                        <h2 v-if="getData(data, 'alt_baslik')" v-html="getData(data, 'alt_baslik')"></h2>
+                        <p v-if="getData(data, 'aciklama')" v-html="getData(data, 'aciklama')"></p>
                         <a href="/aboutUs" @mouseenter="playLottie" @mouseleave="stopLottie">
-                            Go details
+                            
+                            {{getData(data, 'link_baslik')}}
+                            
                             <lottie-player ref="lottieRef" 
                                 src="/assets/json/adis-buton2.json" 
                                 background="transparent" 
@@ -25,6 +29,9 @@
         </div>
     </section>
 </template>
+
+  
+
 
 <script setup>
 import { ref, onMounted } from 'vue'
@@ -46,4 +53,10 @@ const stopLottie = () => {
 useHead({
     script: [{ src: 'https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js' }]
 })
+
+
+import getData from "@/utilities/getData";
+    import getAssets from "@/utilities/getAssets";
+    const { data } = defineProps(["data"]);
+
 </script>

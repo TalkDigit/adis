@@ -101,8 +101,8 @@ const _inlineRuntimeConfig = {
     }
   },
   "public": {
-    "apiBase": "",
-    "cdnUri": "",
+    "apiBase": "https://adispanel.talksolutions.dev/api/v1/front/",
+    "cdnUri": "https://adispanel.talksolutions.dev/storage/",
     "i18n": {
       "baseUrl": "",
       "defaultLocale": "",

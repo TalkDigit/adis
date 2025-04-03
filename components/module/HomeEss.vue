@@ -2,17 +2,30 @@
     <section class="essContainer">
         <div class="container">
             <div class="essContent">
-                <h5 data-aos="fade-up" data-aos-duration="1000">
-                    ESS Konteyneri
+                <h5 data-aos="fade-up" data-aos-duration="1000"
+                v-if="getData(data, 'baslik')" v-html="getData(data, 'baslik')"
+                >
+                   
                 </h5>
-                <span>
-                    Ürün Tanımı
+                <span v-if="getData(data, 'alt_baslik')" v-html="getData(data, 'alt_baslik')">
+                   
                 </span>
-                <p>
-                    ESS Konteyneri, raflar, kontrol paneli, HV kutuları, termal yönetim sistemi, yangın koruma sistemi ve havalandırma sistemi dahil olmak üzere temel olarak birkaç temel bileşenden oluşur. Altı rafın paralel olarak yer aldığı bir yapılandırma tasarımıyla, konteynerin enerji kapasitesi 5015 kWh’ye kadar ulaşabilir. Bu tasarım, uzun hizmet ömrü, yüksek enerji yoğunluğu, kolay kablolama ve olağanüstü güvenlik performansı dahil olmak üzere çok sayıda avantaj sunar.
+                <p  v-if="getData(data, 'aciklama')" v-html="getData(data, 'aciklama')">
+                   
                 </p>
             </div>
             <ModuleContainer/>
         </div>
     </section>
 </template>
+
+<script setup>
+
+
+import getData from "@/utilities/getData";
+    import getAssets from "@/utilities/getAssets";
+    const { data } = defineProps(["data"]);
+
+
+
+</script>

@@ -2,8 +2,8 @@
     <section class="socialSection">
         <div class="container">
             <div class="socialTitle">
-                <h5 data-aos="fade-up">Social Responsibility</h5>
-                <p data-aos="fade-up" data-aos-duration="1000">Lorem ipsum odor amet, consectetuer adipiscing elit.</p>
+                <h5 data-aos="fade-up"  v-if="getData(data, 'baslik')" v-html="getData(data, 'baslik')"></h5>
+                <p data-aos="fade-up" data-aos-duration="1000"  v-if="getData(data, 'aciklama')" v-html="getData(data, 'aciklama')"></p>
             </div>
         </div>
         <div>
@@ -44,4 +44,11 @@
       useHead({
   script: [ { src: 'https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js' } ]
 })
+
+
+
+import getData from "@/utilities/getData";
+    import getAssets from "@/utilities/getAssets";
+    const { data } = defineProps(["data"]);
+
 </script>

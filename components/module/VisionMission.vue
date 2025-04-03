@@ -6,8 +6,8 @@
                     <div class="visionContent vision">
                         <IconsTarget/>
                         <div>
-                            <h4>Vision</h4>
-                            <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Conubia mauris facilisis facilisi primis vitae lectus. Turpis netus sed hendrerit; consectetur placerat ac conubia. Aenean arcu facilisi cursus duis donec pretium.</p>
+                            <h4 v-if="getData(data, 'vision_baslik')" v-html="getData(data, 'vision_baslik')"></h4>
+                            <p v-if="getData(data, 'vision_aciklama')" v-html="getData(data, 'vision_aciklama')"></p>
                         </div>
                     </div>
                 </div>
@@ -15,8 +15,8 @@
                     <div class="visionContent mission">
                         <IconsFlag/>
                         <div>
-                            <h4>Mission</h4>
-                            <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Conubia mauris facilisis facilisi primis vitae lectus. Turpis netus sed hendrerit; consectetur placerat ac conubia. Aenean arcu facilisi cursus duis donec pretium.</p>
+                            <h4 v-if="getData(data, 'mission_baslik')" v-html="getData(data, 'mission_baslik')"></h4>
+                            <p v-if="getData(data, 'mission_aciklama')" v-html="getData(data, 'mission_aciklama')"></p>
                         </div>
                     </div>
                 </div>
@@ -24,3 +24,16 @@
        </div>
     </section>
 </template>
+
+
+
+<script setup>
+
+
+import getData from "@/utilities/getData";
+    import getAssets from "@/utilities/getAssets";
+    const { data } = defineProps(["data"]);
+
+
+
+</script>

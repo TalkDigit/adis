@@ -3,14 +3,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-4">
-                    <h5 data-aos="fade-up" data-aos-duration="1000">
-                        The future of renewable energy is bright with us
+                    <h5 data-aos="fade-up" data-aos-duration="1000"
+                    v-if="getData(data, 'baslik')" v-html="getData(data, 'baslik')"
+                    >
+                       
                     </h5>
-                    <p>
-                        Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus praesent maximus diam suscipit, pulvinar suspendisse tempor eu ultricies. Nisi duis ac eros aliquet consectetur consequat. Litora eros fermentum malesuada venenatis netus ornare amet ut.
-                        <br><br>
-                        Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus praesent maximus diam suscipit, pulvinar suspendisse tempor eu ultricies. Nisi duis ac eros aliquet consectetur consequat. Litora eros fermentum malesuada venenatis netus ornare amet ut.
-                    </p>
+                    <div  v-if="getData(data, 'editor')" v-html="getData(data, 'editor')">
+
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-8">
                     <ModuleHomeTab/>
@@ -19,3 +19,14 @@
         </div>
     </section>
 </template>
+
+<script setup>
+
+
+import getData from "@/utilities/getData";
+    import getAssets from "@/utilities/getAssets";
+    const { data } = defineProps(["data"]);
+
+
+
+</script>

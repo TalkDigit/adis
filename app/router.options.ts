@@ -8,8 +8,13 @@ export default <RouterConfig> {
     {
       name: 'home',
       path: '/',
-      component: home
-    },  
+      component: () => import('~/pages/index.vue')
+    },
+    {
+      name: 'page',
+      path: '/:page',
+      component: () => import('~/pages/page.vue')
+    },
     {
       name: 'aboutUs',
       path: '/aboutUs',

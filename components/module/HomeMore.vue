@@ -4,43 +4,21 @@
             <h5 data-aos="fade-up" data-aos-duration="1000">ENERGY AND <br>INDUSTRY <b>MORE</b></h5>
             <div class="moreFlex">
                 <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1000">
-                        <a href="#">
-                            <IconsGreenok/> <span> Lorem ipsum odor amet, consectetuer adipiscing elit.</span>
+                    <div class="col-sm-12 col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1000" v-for="item in data.element.module">
+                        <a :href="getData(item, 'link')">
+                            <IconsGreenok/> <span v-html="getData(item, 'baslik')"> </span>
                         </a>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="2000">
-                        <a href="#">
-                            <IconsGreenok/> <span>Lorem ipsum amet, adipiscing elit.</span>
-                        </a>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="3000">
-                        <a href="#">
-                            <IconsGreenok/> <span> Lorem ipsum odor amet, consectetuer adipiscing elit.</span>
-                        </a>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1000">
-                        <a href="#">
-                            <IconsGreenok/> <span> Lorem ipsum odor, consectetuer elit.</span>
-                        </a>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="2000">
-                        <a href="#">
-                            <IconsGreenok/> <span> Lorem ipsum odor, consectetuer elit.</span>
-                        </a>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="3000">
-                        <a href="#">
-                            <IconsGreenok/> <span>Lorem ipsum odor amet, consectetuer adipiscing elit.</span>
-                        </a>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1000">
-                        <a href="#">
-                            <IconsGreenok/> <span>Lorem ipsum amet, adipiscing elit.</span>
-                        </a>
-                    </div>
+                 
                 </div>
             </div>
         </div>
     </section>
 </template>
+
+
+<script setup>
+import getData from "@/utilities/getData";
+import getAssets from "@/utilities/getAssets";
+const { data } = defineProps(["data"]);
+</script>
