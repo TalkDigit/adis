@@ -1,4 +1,5 @@
 .contact-main{
+    padding-bottom: 20px;
     h1{
         font-size: 45px;
         letter-spacing: -1.13px;
@@ -14,6 +15,7 @@
     .contact-form-personal-info{
         display: flex;
         justify-content: space-between;
+        gap: 10px;
     }
     .submit-btn{
         border-radius: 20px;
@@ -33,9 +35,11 @@
             border: 1px solid #EBEBEB;
             border-radius: 10px;
             padding: 17px 15px;
-            max-width: 212px;
+            max-width: 100%;
             width: 100%;
             margin-bottom: 10px;
+            padding-top: 11px;
+            
            &::placeholder{
                 font-size: 12px !important;
                 color: #C9C9C9 !important;
@@ -125,11 +129,34 @@
         position: absolute;
         width: 100%;
         height: 100vh;
-        top: 0px;
+        top: 180px;
         left: 0px;
         z-index: -1;
         background: url(/assets/images/maps.png);
         background-repeat: no-repeat;
         background-size: cover;
+    }
+}
+
+@media(max-width:768px){
+    .contact-main h1{
+        font-size: 22px;
+    }
+    .contact-main .contact-form-personal-info{
+        flex-direction: column;
+    }
+    .contact-main .contact-form input{
+        max-width: 100% !important;
+    }
+    .aboutFuture {
+        margin-bottom: 100px !important;
+    }
+}
+
+@media(min-width:1200px) and (max-width:1400px){
+    .aboutFuture .bottomAbout div h5 {
+        font-size: 40px !important;
+        line-height: 46px !important;
+        margin-bottom: 100px !important;
     }
 }
