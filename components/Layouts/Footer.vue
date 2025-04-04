@@ -111,7 +111,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/contact">
+                                    <a href="/iletisim">
                                         Contact
                                     </a>
                                 </li>

@@ -3,5 +3,18 @@ export default {
     searchFound : 'Results found',
     searchNotFound : 'No results were found for your search. Please try different terms.',
     home : 'Home',
-    goHome: 'Go to Page'
+    goHome: 'Go to Page',
+    kvkk:'I have read and accept the Personal Data Protection Information Text.',
+    iletisimeGec: 'Contact Us',
+    contactUs: 'Contact Us',
+    telephone:'Phone',
+    adres:'Address',
+    email:'E-mail',
+    ad:'Your name',
+    konu:'Subject',
+    soyad:'Your surname',
+    email:'Your Email Address',
+    phone:'+90',
+    message:'Your message',
+    send:'Send'
 }

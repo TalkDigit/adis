@@ -30,6 +30,7 @@ export { withCtx, withDirectives, withKeys, withMemo, withModifiers, withScopeId
 export { injectHead, useHead, useSeoMeta, useHeadSafe, useServerHead, useServerSeoMeta, useServerHeadSafe } from '@unhead/vue';
 export { useCustomFetch } from '../composables/useCustomFetch';
 export { useExample } from '../stores/Example';
+export { useForm } from '../stores/Form';
 export { usePage } from '../stores/Page';
 export { useSearch } from '../stores/Search';
 export { useLangControl } from '../stores/langControl';
