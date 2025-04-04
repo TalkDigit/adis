@@ -22,6 +22,17 @@ header {
     mix-blend-mode: darken;
   }
   .langBtn{
+    background:url("/assets/images/langbg.svg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 18px;
+    margin-left: 10px;
+    color:#747474;
+    font-weight: 300;
+    text-transform: uppercase;
     button{
       background:url("/assets/images/langbg.svg") ;
       background-repeat: no-repeat;

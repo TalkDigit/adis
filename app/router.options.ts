@@ -1,6 +1,10 @@
 import type { RouterConfig } from '@nuxt/schema'
 
-const home = () => import('~/pages/index.vue').then(r => r.default || r)
+const home = () => import('~/pages/index.vue').then(r => r.default || r),
+page = () => import('~/pages/page.vue').then(r => r.default || r) ,
+search = () => import('~/pages/search.vue').then(r => r.default || r)
+
+
 
 export default <RouterConfig> {
   // https://router.vuejs.org/api/interfaces/routeroptions.html#routes
@@ -8,13 +12,51 @@ export default <RouterConfig> {
     {
       name: 'home',
       path: '/',
-      component: () => import('~/pages/index.vue')
+      component: home,
+      meta : {
+        menuLight : true
+      }
     },
+    {
+      name: 'homeEn',
+      path: '/en',
+      component: home,
+      meta : {
+        menuLight : true,
+        lang : 'en'
+      }
+    },
+
+
     {
       name: 'page',
       path: '/:page',
-      component: () => import('~/pages/page.vue')
+      component: page
     },
+    {
+      name: 'pageEn',
+      path: '/en/:page',
+      component: page,
+      meta : {
+        lang : 'en'
+      }
+    },
+
+    {
+      name: 'search',
+      path: '/arama/:key',
+      component: search
+    },
+
+    {
+      name: 'searchEn',
+      path: '/en/search/:key',
+      component: search,
+      meta : {
+        lang : 'en'
+      }
+    },
+
     {
       name: 'aboutUs',
       path: '/aboutUs',
