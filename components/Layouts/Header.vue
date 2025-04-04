@@ -25,12 +25,14 @@
                     <!-- Mobilde Popup Açılan Arama -->
                     <div v-if="isActive && isMobile" class="search-popup">
                         <div class="search-popup-content">
-                            <input ref="searchInput" v-model="searchQuery" class="search-input" placeholder="Search" />
+                            <input ref="searchInput" v-model="search" @keyup.enter="searchTerm"  class="search-input" placeholder="Search" />
                             <button class="close-btn" @click="isActive = false">✖</button>
                         </div>
                     </div>
 
-                    <img class="desktopnone" src="/assets/images/mobilelogo.png" />
+                    <a href="/">
+                        <img class="desktopnone" src="/assets/images/mobilelogo.png" />
+                    </a>
 
                     <ModuleLang/>
                     <div class="hamburgerbg">
@@ -133,10 +135,16 @@
             justify-content: center;
             z-index: 1000;
         }
+        .language{
+            display: none;
+        }
         header .icon-search-container.active {
             width: 50px !important;
             height: 50px !important;
             background-color: #0c4282;
+        }
+        .headerRight a{
+            z-index: 3;
         }
         header .search-popup-content {
             background: white;
