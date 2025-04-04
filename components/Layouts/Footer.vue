@@ -67,12 +67,12 @@
                         <div class="menuFooter">
                             <ul>
                                 <li>
-                                    <a href="/aboutUs">
+                                    <a href="/hakkimizda">
                                         About Us
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="projects">
+                                    <a href="projeler">
                                         Projects
                                     </a>
                                 </li>
