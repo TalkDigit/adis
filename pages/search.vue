@@ -5,7 +5,7 @@
                 <div class="breadcrumb">
                     <ul class="breadcrumb-list">
                         <li><NuxtLink :to="{name : locale == 'tr' ? 'home' : 'homeEn'}" alt="">{{ $t('home') }}</NuxtLink></li>
-                        <li>"<b>{{ route.params.key }}</b>" {{ $t('searchResult') }}</li>
+                        <li> &nbsp;"<b>{{ route.params.key }}</b>" {{ $t('searchResult') }}</li>
                     </ul>
                 </div>
             </div>
@@ -22,8 +22,8 @@
                     <div class="product-card" v-for="item in Result" v-else>
                         <img v-if="item.data.urun_gorsel && item.data.urun_gorsel[locale]" :src="getAssets(item.data.urun_gorsel[locale])" class="product-card-img" alt="" />
                         <div class="product-card-main">
-                            <p>{{ item.data.baslik[locale] }}</p>
-                            <NuxtLink :to="`${locale == 'tr' ? '/' : '/en/'}` + item.data.slug[locale]" alt="" class="stretched-link">{{ $t('productDetail') }} <IconsProductLink /></NuxtLink>
+                            <!-- <p>{{ item.data.baslik[locale] }}</p> -->
+                            <NuxtLink style="opacity: 0;" :to="`${locale == 'tr' ? '/' : '/en/'}` + item.data.slug[locale]" alt="" class="stretched-link">{{ $t('goHome') }} <IconsProductLink /></NuxtLink>
                         </div>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
     }
     .corporate-banner {
         align-items: center;
-        background: linear-gradient(97deg, #159b67, #8ec737);
+        background: linear-gradient(98deg, #0C4282, #0C4282, #0C4282);
         border-radius: 40px;
         display: flex;
         align-items: flex-start;
@@ -123,10 +123,21 @@
         color: #fff;
         font-style: italic;
     }
+    @media(max-width:768px){
+        .corporate-banner{
+            height: 100% !important;
+            padding: 30px !important;
+            margin: 0px !important;
+        }
+        .corporate-banner h1{
+            font-size: 22px;
+        }
+    }
     @media (min-width: 991px) {
         .product-card {
             width: calc(100% / 4 - 22.5px);
         }
+     
     }
     .breadcrumb-list {
         display: flex;
