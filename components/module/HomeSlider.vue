@@ -9,7 +9,7 @@
                         <span v-if="getData(data, 'baslik')" v-html="getData(data, 'baslik')"></span>
                         <h2 v-if="getData(data, 'alt_baslik')" v-html="getData(data, 'alt_baslik')"></h2>
                         <p v-if="getData(data, 'aciklama')" v-html="getData(data, 'aciklama')"></p>
-                        <a href="/aboutUs" @mouseenter="playLottie" @mouseleave="stopLottie">
+                        <a :href="getData(data, 'link')" @mouseenter="playLottie" @mouseleave="stopLottie">
                             
                             {{getData(data, 'link_baslik')}}
                             
