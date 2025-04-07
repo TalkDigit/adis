@@ -36,7 +36,7 @@ useHead({
       rel: 'icon',
       type: 'image/png',
       sizes: '32x32',
-      href: '/assets/images/icon.png'
+      href: '/assets/images/footerLogo.png'
     }
   ]
 });
