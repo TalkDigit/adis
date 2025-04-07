@@ -9,11 +9,18 @@
                             <p>{{ $t('contactUs') }} </p>
                         </div>
                         <div class="contact-details">
-                            <a href="tel:0 000 000 00 00" class="contact-item">
+                            <a href="tel:+90 212 830 34 00" class="contact-item">
                                 <IconsPhonee/>
                                 <div class="contact-item-content">
                                     <h2>{{ $t('telephone') }}</h2>
-                                    <p>0 000 000 00 00</p>
+                                    <p>+90 212 830 34 00</p>
+                                </div>
+                            </a>
+                            <a href="tel:+90 212 809 23 47" class="contact-item">
+                                <IconsPhonee/>
+                                <div class="contact-item-content">
+                                    <h2>{{ $t('Fax') }}</h2>
+                                    <p>+90 212 809 23 47</p>
                                 </div>
                             </a>
                             <a href="mailto:info@adisenerji.com.tr" class="contact-item">
