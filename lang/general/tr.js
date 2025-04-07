@@ -16,5 +16,11 @@ export default {
     email:'E-posta Adresiniz',
     phone:'+90',
     message:'Mesajınız',
-    send:'Gönder'
+    send:'Gönder',
+    hakkimizda:'Hakkımızda',
+    projeler:'Projeler',
+    iletisim:'İletişim',
+    hakkimizdaLink:'/hakkimizda',
+    projelerLink:'/projeler',
+    iletisimLink:'/iletisim'
 }

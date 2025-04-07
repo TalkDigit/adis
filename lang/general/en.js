@@ -16,5 +16,11 @@ export default {
     email:'Your Email Address',
     phone:'+90',
     message:'Your message',
-    send:'Send'
+    send:'Send',
+    hakkimizda:'About Us',
+    hakkimizdaLink:'/en/aboutus',
+    projeler:'Projects',
+    projelerLink:'/en/projects',
+    iletisim:'Contact',
+    iletisimLink:'/en/contact'
 }

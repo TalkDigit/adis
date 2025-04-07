@@ -9,9 +9,9 @@
                 </a>
                 <div class="headerRight">
                     <ul :class="{ active: isMenuOpen }">
-                        <li><a href="#">Institutional</a></li>
-                        <li><a href="#">Fields of Activity</a></li>
-                        <li><a href="#">Solutions</a></li>
+                        <li><a :href="$t('hakkimizdaLink')">{{ $t('hakkimizda') }}</a></li>
+                        <li><a :href="$t('projelerLink')">{{ $t('projeler') }}</a></li>
+                        <li><a :href="$t('iletisimLink')">{{ $t('iletisim') }}</a></li>
                     </ul>
 
                     <!-- Arama -->
