@@ -6,8 +6,8 @@
                     <div>
                         <IconsHeadset />
                     </div>
-                    <a href="tel:0850 800 0 186">
-                        0850 800 0 186
+                    <a href="tel:+90 212 830 34 00">
+                        +90 212 830 34 00
                         <span>
                             Contact Us
                         </span>

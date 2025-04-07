@@ -99,54 +99,54 @@
             // Bursa Tab
             description: "Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus praesent maximus diam suscipit, pulvinar suspendisse tempor eu ultricies.",
             power: 100,
+            percentage: 40,
+            production: 346,
+            households: "138.400",
+            emission: "290.000",
+            date: "2026Q1",
+        },
+        {
+            // Kırklareli Tab
+            description: "Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus praesent maximus diam suscipit, pulvinar suspendisse tempor eu ultricies.",
+            power: 100,
             percentage: 43,
             production: 376,
             households: "150.400",
             emission: "315.000",
             date: "2026Q1",
         },
+
         {
-            // Kırklareli Tab
+            // Yenice Tab
             description: "Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus praesent maximus diam suscipit, pulvinar suspendisse tempor eu ultricies.",
-            power: 85,
-            percentage: 38,
-            production: 320,
-            households: "125.700",
-            emission: "280.500",
-            date: "2025Q3",
+            power: 100,
+            percentage: 43,
+            production: 376,
+            households: "150,400",
+            emission: "315.000",
+            date: "2027Q1",
         },
 
         {
-            // Kırklareli Tab
+            // Kışlacık Tab
             description: "Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus praesent maximus diam suscipit, pulvinar suspendisse tempor eu ultricies.",
-            power: 85,
-            percentage: 38,
-            production: 320,
-            households: "125.700",
-            emission: "280.500",
-            date: "2025Q3",
-        },
-
-        {
-            // Kırklareli Tab
-            description: "Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus praesent maximus diam suscipit, pulvinar suspendisse tempor eu ultricies.",
-            power: 85,
-            percentage: 38,
-            production: 320,
-            households: "125.700",
-            emission: "280.500",
-            date: "2025Q3",
+            power: 75,
+            percentage: 41,
+            production: 270,
+            households: "108.800",
+            emission: "225.000",
+            date: "2026Q1",
         },
         
         {
-            // Kırklareli Tab
+            // Bildim Tab
             description: "Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus praesent maximus diam suscipit, pulvinar suspendisse tempor eu ultricies.",
-            power: 85,
-            percentage: 38,
-            production: 320,
-            households: "125.700",
-            emission: "280.500",
-            date: "2025Q3",
+            power: 100,
+            percentage: 20,
+            production: 241,
+            households: "96.400",
+            emission: "200.000",
+            date: "2025Q4",
         },// Diğer tablar için veriler...
     ];
 

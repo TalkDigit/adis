@@ -129,7 +129,7 @@
         .map{
            transform: scale(1.5) translate(170px, 60px);
            transition: all .3s;
-           .kirklareli, .edirne, .bursa, .canakkale{
+           .kirklareli, .edirne, .bursa, .gaziantep{
             fill: #D1D1D1;
             transition: all .3s;
            }
@@ -166,14 +166,63 @@
                 }
              }
         }
-        &.map-2{
+
+        &.map-3{
             .map{
-                transform: scale(1.5) translate(170px, 60px);
-                .canakkale{
+                transform: scale(2) translate(300px, 90px);
+
+                .kislacikPin{
+                    opacity: 1 !important;
+                  }
+                  .kislacikAltPin{
+                    opacity: 1 !important;
+                  }
+
+
+                .kislacik{
                     fill: #A1CA3C;
                 }
              }
         }
+
+        &.map-4{
+            .map{
+                transform: scale(1.2) translate(-121px, 0px);
+
+                .gaziantepPin{
+                    opacity: 1 !important;
+                  }
+                  .gaziantepAltPin{
+                    opacity: 1 !important;
+                  }
+
+
+                .gaziantep{
+                    fill: #A1CA3C;
+                }
+             }
+        }
+
+
+        
+        &.map-2{
+            .map{
+                transform: scale(2) translate(300px, 90px);
+
+                .edirnePin{
+                    opacity: 1 !important;
+                  }
+                  .edirneAltPin{
+                    opacity: 1 !important;
+                  }
+
+
+                .edirne{
+                    fill: #A1CA3C;
+                }
+             }
+        }
+
     }
     .pin{
         font-size:50px;
@@ -203,7 +252,50 @@
         opacity: 0;
           transition: all .3s;
       }
+
+      .kislacikPin{
+        transform: translate(484px, 231px);
+        opacity: 0;
+        font-size:35px;
+          transition: all .3s;
+      }
+      .kislacikAltPin{
+        transform:translate(460px, 281px);
+        font-size:30px;
+        opacity: 0;
+          transition: all .3s;
+      }
       
+
+      .edirnePin{
+        transform: translate(314px, 231px);
+        opacity: 0;
+        font-size:35px;
+          transition: all .3s;
+      }
+      .edirneAltPin{
+        transform:translate(334px, 281px);
+        font-size:30px;
+        opacity: 0;
+          transition: all .3s;
+      }
+
+
+      .gaziantepPin{
+        transform: translate(3320px, 1801px);
+        opacity: 0;
+        font-size:35px;
+          transition: all .3s;
+      }
+      .gaziantepAltPin{
+        transform:translate(3320px, 1841px);
+        font-size:30px;
+        opacity: 0;
+          transition: all .3s;
+      }
+      
+
+
     
     .tabs {
         display: flex;
