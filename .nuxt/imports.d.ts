@@ -34,6 +34,7 @@ export { useForm } from '../stores/Form';
 export { useMenu } from '../stores/Menu';
 export { usePage } from '../stores/Page';
 export { useSearch } from '../stores/Search';
+export { useSettings } from '../stores/Settings';
 export { useLangControl } from '../stores/langControl';
 export { defineStore, acceptHMRUpdate, usePinia, storeToRefs } from '../node_modules/@pinia/nuxt/dist/runtime/composables';
 export { useI18n } from '../node_modules/vue-i18n/dist/vue-i18n';
