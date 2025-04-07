@@ -31,6 +31,7 @@ export { injectHead, useHead, useSeoMeta, useHeadSafe, useServerHead, useServerS
 export { useCustomFetch } from '../composables/useCustomFetch';
 export { useExample } from '../stores/Example';
 export { useForm } from '../stores/Form';
+export { useMenu } from '../stores/Menu';
 export { usePage } from '../stores/Page';
 export { useSearch } from '../stores/Search';
 export { useLangControl } from '../stores/langControl';

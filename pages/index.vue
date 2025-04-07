@@ -30,9 +30,21 @@
       return false;
     }
   
-  
+      
+    useSeoMeta({
+      title: null,
+      ogTitle: null,
+      twitterTitle : null,
+      description: data.data.description && data.data.description[locale.value] ? data.data.description[locale.value] : null,
+      ogDescription: data.data.description && data.data.description[locale.value] ? data.data.description[locale.value] : null,
+      twitterDescription: data.data.description && data.data.description[locale.value] ? data.data.description[locale.value] : null,
+    })
+
+
+
     return data.data;
   });
+  
   
   await callOnce(PageStore.fetchHomePage);
   </script>
