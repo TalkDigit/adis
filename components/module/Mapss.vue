@@ -97,7 +97,7 @@
   <text class="pin edirneAltPin"> Yenice</text>
 
   <text class="pin kislacikPin"  >Kırklareli </text>
-  <text class="pin kislacikAltPin"> Armağan Köyü</text>
+  <text class="pin kislacikAltPin"> Kışlacık Köyü</text>
 
   <text class="pin gaziantepPin"  >Gaziantep </text>
   <text class="pin gaziantepAltPin"> Bildim Köyü</text>
