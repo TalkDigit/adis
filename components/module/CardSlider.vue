@@ -22,10 +22,10 @@
         >
           <h4 v-html="card.title"></h4>
           <p v-if="card.description">{{ card.description }}</p>
-          <div class="date">
+          <!-- <div class="date">
             <small>{{ card.month }}<b>{{ card.year }}</b></small>
             <span>{{ card.day }}</span>
-          </div>
+          </div> -->
         </div>
       </SwiperSlide>
     </Swiper>
@@ -41,9 +41,9 @@ import "swiper/css/pagination";
 const cards = [
   {
     title:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <b>Potenti aliquet semper fusce, orci nunc iaculis amet</b>",
+      "Dünya Elektriğinin %30’u <b>Yenilenebilir Kaynaklardan Sağlanıyor.</b>",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Potenti aliquet semper fusce, orci nunc iaculis amet? Curae etiam et.",
+      "Küresel çapta yenilenebilir enerji, 2023 yılında elektrik üretiminin %30’unu karşıladı. Güneş ve rüzgar enerjisi, büyüme hızıyla öne çıkarken, 2024’te bu oranın %32’ye ulaştığı tahmin ediliyor. Çin, ABD ve Avrupa, yenilenebilir enerji yatırımlarında lider konumda.",
     image: "", 
     month: "December",
     year: "2024",
@@ -51,8 +51,8 @@ const cards = [
     after: false,
   },
   {
-    title: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-    description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Potenti aliquet semper consectetuer.",
+    title: "Depolama Teknolojileri <b>Yenilenebilir Enerjiye Güç Katıyor</b>",
+    description: "Dünya genelinde enerji depolama sistemlerine yatırımlar artıyor. Türkiye’de de depolamalı rüzgar ve güneş enerjisi santralleri için çalışmalar hız kazandı. 2030’a kadar 80 bin MW depolama kapasitesi hedefleyen Türkiye, enerji sürekliliğini güçlendirmeyi amaçlıyor.",
     image: "/assets/images/slider2.png",
     month: "October",
     year: "2024",
@@ -60,7 +60,7 @@ const cards = [
     after: false,
   },
   {
-    title: "Lorem ipsum dolor sit amet, elit. Potenti aliquet semper fusce",
+    title: "Güneş Enerjisi <b>Türkiye’de Hızla Yükseliyor</b>",
     description: "",
     image: "/assets/images/slider3.png",
     month: "October",

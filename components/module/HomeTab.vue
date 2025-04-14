@@ -97,7 +97,7 @@
     const tabsData = [
         {
             // Bursa Tab
-            description: "Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus praesent maximus diam suscipit, pulvinar suspendisse tempor eu ultricies.",
+            description: "%100 yenilenebilir kaynaklara dayalı, depolamalı rüzgar ve güneş enerjisi santralleri geliştirerek Türkiye’nin enerji dönüşümüne katkı sunarken, ileri teknoloji depolama sistemleriyle sürdürülebilir, kesintisiz ve çevre dostu enerji üretimini mümkün kılıyor.",
             power: 100,
             percentage: 40,
             production: 346,
@@ -107,7 +107,7 @@
         },
         {
             // Kırklareli Tab
-            description: "Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus praesent maximus diam suscipit, pulvinar suspendisse tempor eu ultricies.",
+            description: "%100 yenilenebilir kaynaklara dayalı, depolamalı rüzgar ve güneş enerjisi santralleri geliştirerek Türkiye’nin enerji dönüşümüne katkı sunarken, ileri teknoloji depolama sistemleriyle sürdürülebilir, kesintisiz ve çevre dostu enerji üretimini mümkün kılıyor.",
             power: 100,
             percentage: 43,
             production: 376,
@@ -118,7 +118,7 @@
 
         {
             // Yenice Tab
-            description: "Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus praesent maximus diam suscipit, pulvinar suspendisse tempor eu ultricies.",
+            description: "%100 yenilenebilir kaynaklara dayalı, depolamalı rüzgar ve güneş enerjisi santralleri geliştirerek Türkiye’nin enerji dönüşümüne katkı sunarken, ileri teknoloji depolama sistemleriyle sürdürülebilir, kesintisiz ve çevre dostu enerji üretimini mümkün kılıyor.",
             power: 100,
             percentage: 43,
             production: 376,
@@ -129,7 +129,7 @@
 
         {
             // Kışlacık Tab
-            description: "Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus praesent maximus diam suscipit, pulvinar suspendisse tempor eu ultricies.",
+            description: "%100 yenilenebilir kaynaklara dayalı, depolamalı rüzgar ve güneş enerjisi santralleri geliştirerek Türkiye’nin enerji dönüşümüne katkı sunarken, ileri teknoloji depolama sistemleriyle sürdürülebilir, kesintisiz ve çevre dostu enerji üretimini mümkün kılıyor.",
             power: 75,
             percentage: 41,
             production: 270,
@@ -140,7 +140,7 @@
         
         {
             // Bildim Tab
-            description: "Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus praesent maximus diam suscipit, pulvinar suspendisse tempor eu ultricies.",
+            description: "%100 yenilenebilir kaynaklara dayalı, depolamalı rüzgar ve güneş enerjisi santralleri geliştirerek Türkiye’nin enerji dönüşümüne katkı sunarken, ileri teknoloji depolama sistemleriyle sürdürülebilir, kesintisiz ve çevre dostu enerji üretimini mümkün kılıyor.",
             power: 100,
             percentage: 20,
             production: 241,

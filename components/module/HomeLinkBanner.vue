@@ -20,7 +20,7 @@
                         <p v-if="getData(data, 'aciklama')" v-html="getData(data, 'aciklama')" ></p>
                     </div>
                 </div>
-                <a  class="mobileNone" href="#">
+                <a  class="mobileNone" href="/hakkimizda">
                     <IconsGray/>
                 </a>
             </div>
