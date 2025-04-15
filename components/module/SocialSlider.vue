@@ -262,7 +262,7 @@
     }
 
     .prev {
-        left: 27%;
+        left: 25%;
     }
 
     .prev::after {
@@ -270,7 +270,7 @@
     }
 
     .next {
-        right: 27%;
+        right: 25%;
     }
 
     .next::after {
