@@ -34,7 +34,7 @@
                         <img class="desktopnone" src="/assets/images/mobilelogo.png" />
                     </a>
 
-                    <ModuleLang/>
+                    <!-- <ModuleLang/> -->
                     <div class="hamburgerbg">
                         <div class="hamburger" :class="{ active: isMenuOpen }" @click="toggleMenu">
                             <span></span>

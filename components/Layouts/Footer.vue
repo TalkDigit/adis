@@ -13,10 +13,39 @@
                         </span>
                     </a>
                 </div>
-                <div class="input-container">
+                <div class="socialFooter">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <IconsFacebook />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <IconsInstagram />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <IconsTwitter />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <IconsLinkedin />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <IconsYoutube />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                <!-- <div class="input-container">
                     <input type="text" placeholder="Please write your e-mail">
                     <button><IconsWhiteright/> Send </button>
-                </div>
+                </div> -->
             </div>
             <div class="footerFlex">
                 <div class="row">
@@ -31,7 +60,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-12 col-lg-6 desktopNone">
+                    <!-- <div class="col-sm-12 col-md-12 col-lg-6 desktopNone">
                         <div class="socialFooter">
                             <ul>
                                 <li>
@@ -61,117 +90,10 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
-               
-                    <div class="col-sm-12 col-md-12 col-lg-6 ">
-                        <div class="menuFooter">
-                            <ul>
-                                <li>
-                                    <a href="/hakkimizda">
-                                        About Us
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="projeler">
-                                        Projects
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Services
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        Solutions
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Social Responsibility
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        News and Notification
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        Institutional
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Fields of Activity
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/iletisim">
-                                        Contact
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        KVKK Policy
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Clarification Text
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Legal Notice
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-12 col-lg-6 ">
-                        <div class="footer_img">
-                            <img src="/assets/images/footerLogo.png" alt="Logo" />
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6 socialdiv">
-                        <div class="socialFooter">
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <IconsFacebook />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <IconsInstagram />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <IconsTwitter />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <IconsLinkedin />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <IconsYoutube />
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-12 col-lg-6 maildiv">
+                    </div> -->
+
+              
+                    <div class="col-sm-12 col-md-12 col-lg-4 maildiv">
                         <div class="mailBottom">
                             <IconsMail />
                             <a href="mailto:info@adisenerji.com.tr">
@@ -182,6 +104,74 @@
                             </a>
                         </div>
                     </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4 ">
+                        <div class="menuFooter">
+                            <ul>
+                                <li>
+                                    <a href="/hakkimizda">
+                                       Hakkımızda
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/projeler">
+                                        Projeler
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/iletisim">
+                                       İletişim
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4 ">
+                        <div class="footer_img">
+                            <img src="/assets/images/footerLogo.png" alt="Logo" />
+                        </div>
+                    </div>
+                    <!-- <div class="col-sm-12 col-md-6 col-lg-6 socialdiv">
+                        <div class="socialFooter">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <IconsFacebook />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <IconsInstagram />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <IconsTwitter />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <IconsLinkedin />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <IconsYoutube />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> -->
+                    <!-- <div class="col-sm-12 col-md-12 col-lg-6 maildiv">
+                        <div class="mailBottom">
+                            <IconsMail />
+                            <a href="mailto:info@adisenerji.com.tr">
+                                info@adisenerji.com.tr
+                                <span>
+                                    E-mail
+                                </span>
+                            </a>
+                        </div>
+                    </div> -->
                 </div>
             </div>
         </div>

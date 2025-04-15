@@ -18,17 +18,18 @@ footer{
         position: absolute;
         left: 0;
         width: 100%;
-        height: 895px;
+        height: 785px;
         filter: blur(6px);
         top: -57%;
         z-index: -1;
     }
     .sendFooter{
-        margin-bottom: 200px;
+        margin-bottom: 160px;
         background: white;
         border-radius: 45px;
         padding: 33px 35px;
         display: flex;
+        align-items: center;
         justify-content: space-between;
         .input-container {
             display: flex;
@@ -105,6 +106,10 @@ footer{
         }
     }
     .footerFlex{
+        .row{
+            display: flex;
+            align-items: center;
+        }
         .footer_img{
             display: flex;
             justify-content: flex-end;
@@ -115,9 +120,9 @@ footer{
         }
         .mailBottom{
             display: flex;
-            justify-content: flex-end;
+            // justify-content: flex-end;
             align-items: center;
-            margin-top: 30px;
+            // margin-top: 30px;
             svg{
                 margin-right: 20px;
             }
@@ -135,54 +140,20 @@ footer{
                 }
             }
         }
-        .socialFooter{
-            margin-top: 30px;
-            ul{
-                list-style: none;
-                display: flex;
-                padding-left: 0px;
-                margin-bottom: 0px;
-                li{
-                    width: 51px;
-                    height: 51px;
-                    background: url("/assets/images/bgsocial.svg");
-                    display: flex;
-                    align-items: center;
-                    margin-right: 20px;
-                    justify-content: center;
-                    svg{
-                        path{
-                            transition: all .3s;
-                        }
-                        rect{
-                            transition: all .3s;
-                        }
-                    }
-                    &:hover{
-                        svg{
-                            path{
-                                fill: #0C4282;
-                                transition: all .3s;
-                            }
-                            rect{
-                                fill: #0C4282;
-                                transition: all .3s;
-                            }
-                        }
-                    }
-                }
-            }
-        }
+  
         .menuFooter{
             display: flex;
-            justify-content: space-between;
+            flex-direction: row;
+            justify-content: center;
             ul{
+                display: flex;
                 list-style: none;
                 padding-left: 0px;
                 margin-right: 30px;
                 margin-bottom: 0px;
+                gap: 30px;
                 li{
-                    margin-bottom: 15px;
+                    margin-bottom: 0px;
                     a{
                         font-size: 16px;
                         color: #565656;
@@ -421,5 +392,42 @@ footer{
     }
     .menuFooter ul li{
         text-align: center;
+    }
+}
+.socialFooter{
+    ul{
+        list-style: none;
+        display: flex;
+        padding-left: 0px;
+        margin-bottom: 0px;
+        li{
+            width: 51px;
+            height: 51px;
+            background: url("/assets/images/bgsocial.svg");
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+            justify-content: center;
+            svg{
+                path{
+                    transition: all .3s;
+                }
+                rect{
+                    transition: all .3s;
+                }
+            }
+            &:hover{
+                svg{
+                    path{
+                        fill: #0C4282;
+                        transition: all .3s;
+                    }
+                    rect{
+                        fill: #0C4282;
+                        transition: all .3s;
+                    }
+                }
+            }
+        }
     }
 }
