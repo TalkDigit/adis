@@ -9,7 +9,7 @@
                     <a href="tel:+90 212 830 34 00">
                         +90 212 830 34 00
                         <span>
-                            Contact Us
+                            İletişime Geç
                         </span>
                     </a>
                 </div>

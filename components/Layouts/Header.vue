@@ -156,7 +156,10 @@
             width: 80%;
             max-width: 400px;
         }
-
+        header .headerRight ul{
+            display: flex;
+            flex-direction: column;
+        }
         header .search-input {
             flex-grow: 1;
             padding: 10px;
@@ -167,7 +170,7 @@
 
         header .close-btn {
             background: #0c4282;
-            color: white;
+            color: white !important;
             border: none;
             width: 30px;
             height: 30px;

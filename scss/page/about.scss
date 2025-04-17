@@ -211,10 +211,14 @@
             font-size: 22px !important;
             line-height: 32px !important;
             margin-bottom: 50px !important;
+            text-align: start !important;
         }
         p{
             max-width: 100% !important;
             font-size: 16px !important;
+        }
+        br{
+            display: none !important;
         }
     }
     .aboutPage{

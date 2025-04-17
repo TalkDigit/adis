@@ -187,7 +187,8 @@
 
         &.map-4{
             .map{
-                transform: scale(1.2) translate(-121px, 0px);
+                transform: scale(2) translate(-121px, -90px);
+                z-index: -1;
 
                 .gaziantepPin{
                     opacity: 1 !important;
@@ -342,7 +343,7 @@
         padding: 15px;
         position: relative;
         background: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0) 100%);
-
+        z-index: 3;
         overflow: hidden;
     }
 }

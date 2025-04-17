@@ -172,13 +172,14 @@ footer{
 @media(max-width:768px){
     footer{
         padding-bottom: 50px ;
+        overflow: hidden;
         &:after{
             position: absolute;
             left: 0px;
             width: 100%;
             height: 1115px !important;
             filter: blur(3px);
-            top: -250px !important;
+            top: -40px !important;
             z-index: -1;
             background-size: cover;
             background-repeat: no-repeat;

@@ -6,7 +6,6 @@
                     <div class="contact-main">
                         <div class="contact-content-title">
                             <h1> {{ $t('iletisimeGec') }} </h1>
-                            <p>{{ $t('contactUs') }} </p>
                         </div>
                         <div class="contact-details">
                             <a href="tel:+90 212 830 34 00" class="contact-item">

@@ -74,11 +74,11 @@ header {
 
     .icon-wrapper {
       position: absolute;
-      right: 12px;
       top: 48%;
       transform: translateY(-50%);
       cursor: pointer;
     }
+
 
     .search-input {
       position: absolute;
@@ -162,6 +162,12 @@ header {
         align-items: center;
         justify-content: center;
       }
+      .aboutFuture .futureTitle h4{
+        text-align: start !important;
+      }
+      .futureTitle h4 br{
+        display: none !important;
+      }
       .desktopnone{
         display: block;
         width: 100%;
@@ -199,7 +205,7 @@ header {
           transform: translateY(0);
           opacity: 1;
           visibility: visible;
-          max-height: 380px;
+          max-height: 510px;
           padding: 290px 0;
           padding-bottom: 40px;
           display: flex;
@@ -274,4 +280,8 @@ body{
   .headerFlex{
     padding: 30px 0px !important;
   }
+}
+
+.active .icon-wrapper{
+  right: 12px !important;
 }
