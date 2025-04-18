@@ -1,12 +1,18 @@
+
+
 .cardSlider{
     position: relative;
     overflow: hidden;
     margin-top: -282px;
     .swiper-container {
-        overflow: visible;
+        overflow: hidden;
         padding: 170px 0px;
         margin-left: 220px;
         padding-left: 50px;
+        @media(max-width:1480px){
+            margin-left: 0px !important;
+            padding-left: 0px !important;
+        }
       }
       @media (max-width: 1200px) {
         .swiper-container {
@@ -180,3 +186,14 @@
         }
     }
 }
+
+  
+  .cardSlider .swiper-slide-prev .cardContent {
+    transform: scale(0.95);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  .cardSlider .swiper-wrapper{
+    border-radius: 35px !important;
+  }
+  

@@ -11,7 +11,8 @@
       :modules="[SwiperAutoplay]"
       :slides-per-view="3.7"
       :space-between="30"
-      :loop="false"
+
+      :loop="true"
       :pagination="{ clickable: false }"
       :autoplay="{ delay: 3000, disableOnInteraction: false }"
       class="swiper-container"
@@ -90,6 +91,33 @@ const cards = [
     after: false,
     noneBg: true,
   },
+  {
+    title: "Dünya Elektriğinin %30’u <b>Yenilenebilir Kaynaklardan Sağlanıyor.</b>",
+    description:
+      "Küresel çapta yenilenebilir enerji, 2023 yılında elektrik üretiminin %30’unu karşıladı.",
+    image: "",
+    after: false,
+  },
+  {
+    title: "Depolama Teknolojileri <b>Yenilenebilir Enerjiye Güç Katıyor</b>",
+    description:
+      "Türkiye’de de depolamalı rüzgar ve güneş enerjisi santralleri için çalışmalar hız kazandı.",
+    image: "/assets/images/slider2.png",
+    after: false,
+  },
+  {
+    title: "Güneş Enerjisi <b>Türkiye’de Hızla Yükseliyor</b>",
+    description: "",
+    image: "/assets/images/slider3.png",
+    after: true,
+  },
+  {
+    title: "Tüm enerjimizi daha temiz bir dünya için harcıyoruz.",
+    description: "",
+    image: "/assets/images/slider4.png",
+    after: false,
+    noneBg: true,
+  },
 ];
 
 // Breakpoints
@@ -119,6 +147,7 @@ const breakpoints = {
   .cardSlider a{
  display: none;
 } 
+
 .cardSlider .swiper-container{
   padding: 100px 0px;
 }
