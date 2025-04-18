@@ -9,9 +9,9 @@
                 </div>
             </div>
 
-            <a class="linkSocial" href="#" @mouseenter="playLottie1" @mouseleave="stopLottie1">
+            <!-- <a class="linkSocial" href="#" @mouseenter="playLottie1" @mouseleave="stopLottie1">
                 <lottie-player ref="lottieRef1" src="/assets/json/adis-buton2.json" background="transparent" speed="1" style="width: 80px; height: 80px; opacity: 1 !important;"> </lottie-player>
-            </a>
+            </a> -->
         </div>
         <button @click="prevSlide" class="nav-button prev">&#9665;</button>
         <button @click="nextSlide" class="nav-button next">&#9655;</button>
@@ -50,25 +50,25 @@
 
     const items = ref([
         {
-            image: "/assets/images/social.png",
+            image: "/assets/images/blog1.png",
             title: "Yeşil Hidrojen, Dünyanın Yeni Enerji Umudu Oluyor",
             description:
                 "Yeşil hidrojen, yenilenebilir enerjiyle üretilen temiz bir yakıt olarak küresel çapta dikkat çekiyor. Almanya ve Japonya, 2024’te büyük ölçekli hidrojen üretim tesisleri açtı. Türkiye de Ulusal Enerji Planı kapsamında 2035’e kadar 5 GW elektrolizör kapasitesine ulaşmayı hedefliyor. Yeşil hidrojen, özellikle ağır sanayi ve taşımacılıkta karbon emisyonlarını azaltmak için önemli bir alternatif olarak görülüyor.",
         },
         {
-            image: "/assets/images/social.png",
+            image: "/assets/images/blog2.png",
             title: "Türkiye Yenilenebilir Enerjide Dünya Sıralamasında Yükseliyor",
             description:
                 "Türkiye, yenilenebilir enerji kurulu gücünde dünyada 11’inci sıraya yerleşti. Enerji ve Tabii Kaynaklar Bakanlığı’nın verilerine göre, 2024’te güneş ve rüzgar enerjisi kapasitesi önemli ölçüde arttı. Ülke, 2035’e kadar her yıl 5 bin MW yeni yenilenebilir enerji kapasitesi eklemeyi hedefliyor. Özellikle güneş enerjisinde İç Anadolu, rüzgarda ise Ege Bölgesi üretim üssü haline geliyor. Bu gelişmeler, Türkiye’nin 2053 Net Sıfır Karbon hedefi için kritik bir adım olarak görülüyor.",
         },
         {
-            image: "/assets/images/social.png",
+            image: "/assets/images/blog1.png",
             title: "Türkiye’de Depolamalı Rüzgar Enerjisi Projelerine Rekor Yatırım",
             description:
                 "Türkiye, depolamalı rüzgar enerjisi santrallerine yönelik yatırımları hızlandırıyor. 2024’te başlatılan yeni projelerle, 10 yıl içinde 19 milyar avroluk yatırım planlanıyor. Bu santraller, rüzgar enerjisinin gece ve düşük rüzgarlı dönemlerde de kullanılmasını sağlayacak. Bakanlık, bu hamlenin enerji ithalatını azaltarak cari açığa pozitif katkı yapacağını belirtiyor.",
         },
         {
-            image: "/assets/images/social.png",
+            image: "/assets/images/blog2.png",
             title: "Yeşil Hidrojen, Dünyanın Yeni Enerji Umudu Oluyor",
             description:
                 "Yeşil hidrojen, yenilenebilir enerjiyle üretilen temiz bir yakıt olarak küresel çapta dikkat çekiyor. Almanya ve Japonya, 2024’te büyük ölçekli hidrojen üretim tesisleri açtı. Türkiye de Ulusal Enerji Planı kapsamında 2035’e kadar 5 GW elektrolizör kapasitesine ulaşmayı hedefliyor. Yeşil hidrojen, özellikle ağır sanayi ve taşımacılıkta karbon emisyonlarını azaltmak için önemli bir alternatif olarak görülüyor.",
