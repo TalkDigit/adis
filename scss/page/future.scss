@@ -25,10 +25,14 @@
         .futureBottom{
             display: flex;
             align-items: center;
+         
             b{
                 font-size: 45px;
                 color: #4E4E4E;
                 font-weight: bold;
+                @media(max-width:1200px){
+                    font-size: 22px !important;
+                }
             }
             p{  
                 max-width: 761px;

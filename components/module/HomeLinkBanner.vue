@@ -8,9 +8,9 @@
                     v-if="getData(data, 'baslik')" v-html="getData(data, 'baslik')">
                        
                     </h3>
-                    <a href="#" class="desktopNone">
+                    <!-- <a href="#" class="desktopNone">
                             <IconsGray/>
-                        </a>
+                        </a> -->
                 </div>
                    
                     <div class="futureBottom">
@@ -20,9 +20,9 @@
                         <p v-if="getData(data, 'aciklama')" v-html="getData(data, 'aciklama')" ></p>
                     </div>
                 </div>
-                <a  class="mobileNone" href="/hakkimizda">
+                <!-- <a  class="mobileNone" href="/hakkimizda">
                     <IconsGray/>
-                </a>
+                </a> -->
             </div>
         </div>
     </section>
