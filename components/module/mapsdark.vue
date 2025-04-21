@@ -2,7 +2,7 @@
     <div class="svg-wrapper" >
 
 
-    <svg  xmlns="http://www.w3.org/2000/svg" width="1172.016" height="463.143" viewBox="-130 -50 1300 463.143">
+    <svg  xmlns="http://www.w3.org/2000/svg" width="1300.016" height="463.143" viewBox="-130 -50 1300 463.143">
         <g id="Group_5952" data-name="Group 5952" transform="translate(-4763.393 -5867.609)">
             <path 
                 id="Path_26141"
@@ -786,8 +786,9 @@
         <text x="-121" y="-30" class="textMap b">Kırklareli / Merkez</text>
 
         //yenice
-        <svg x="0" y="-170" class="map11" width="67" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.882 90.511">
+        <svg x="5" y="-170" class="map11" width="67" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.882 90.511">
             <path
+            
                 id="location-pin_2_"
                 data-name="location-pin (2)"
                 d="M36.941,0A34.1,34.1,0,0,0,3,34.187C3,60.974,33.751,88.633,35.059,89.794a2.835,2.835,0,0,0,3.764,0c1.309-1.165,32.059-28.824,32.059-55.611A34.1,34.1,0,0,0,36.941,0Zm0,52.8A18.856,18.856,0,1,1,55.8,33.942,18.878,18.878,0,0,1,36.941,52.8Z"
@@ -796,10 +797,10 @@
             />
         </svg>
 
-        <image xlink:href="/assets/images/yenice.png" x="4" y="23" width="58" height="58" xmlns:xlink="http://www.w3.org/1999/xlink" />
-        <text x="-140" y="40" class="textMap"> Yenice Depolamalı</text>
-        <text x="-110" y="60" class="textMap">RES - 100 MW</text>
-        <text x="-110" y="80" class="textMap b">Edirne / Enez</text>
+        <image xlink:href="/assets/images/yenice.png" x="9" y="23" width="58" height="58" xmlns:xlink="http://www.w3.org/1999/xlink" />
+        <text x="-131" y="40" class="textMap"> Yenice Depolamalı</text>
+        <text x="-100" y="60" class="textMap">RES - 100 MW</text>
+        <text x="-100" y="80" class="textMap b">Edirne / Enez</text>
 
 
         //kislacik
@@ -904,17 +905,23 @@
 }
 .scale, .scale2 ,.scale3 , .scale4{
     transition: all .5s;
+   
 }
+
 .scale:hover{
     transform:translate(4799.029px , 5898.594px) scale(1.5);
+    stroke: #384553;
 }
 .scale2:hover{
     transform:translate(4769.029px , 5888.594px) scale(1.8);
+    stroke: #384553;
 }
 .scale3:hover{
     transform:translate(4769.029px , 5888.594px) scale(1.2);
+    stroke: #384553;
 }
 .scale4:hover{
     transform:translate(5029.029px , 5989.594px) scale(1.6);
+    stroke: #384553;
 }
 </style>

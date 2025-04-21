@@ -16,7 +16,7 @@
                                 </div>
                             </a>
                             <a href="tel:+90 212 809 23 47" class="contact-item">
-                                <IconsPhonee/>
+                               <IconsFax/>
                                 <div class="contact-item-content">
                                     <h2>{{ $t('Fax') }}</h2>
                                     <p>+90 212 809 23 47</p>
