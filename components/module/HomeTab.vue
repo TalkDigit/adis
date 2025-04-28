@@ -39,7 +39,7 @@
                     <div class="power-capacity">
                         <small>Kurulu Güç</small>
                         <span class="capacity-value"> <span class="counter">{{ tabData.power }}</span> MWe </span>
-                        <label class="capacity-label"><span>%</span>{{ tabData.percentage }}</label>
+                        <!-- <label class="capacity-label"><span>%</span>{{ tabData.percentage }}</label> -->
                     </div>
 
                     <div class="power-capacity">
@@ -122,7 +122,7 @@
             power: 100,
             percentage: 43,
             production: 376,
-            households: "150,400",
+            households: "150.400",
             emission: "315.000",
             date: "2027Q1",
         },

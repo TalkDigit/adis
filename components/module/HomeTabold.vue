@@ -502,10 +502,10 @@
                 />
 
                 <text class="pin BursaPin" x="0" y="20">Bursa</text>
-                <text class="pin BursaPin" x="0" y="60">Güngören Köyü</text>
+                <text class="pin BursaPin" x="0" y="60">Güngören</text>
 
                 <text class="pin kirklareliPin" x="0" y="20">Kırklareli</text>
-                <text class="pin kirklareliPin" x="0" y="60">Armağan Köyü</text>
+                <text class="pin kirklareliPin" x="0" y="60">Armağan</text>
             </svg>
         </div>
     </div>
