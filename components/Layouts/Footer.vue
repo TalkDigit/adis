@@ -16,7 +16,7 @@
                 <div class="socialFooter">
                             <ul>
                                 <li>
-                                    <a href="#">
+                                    <a href="https://www.facebook.com/profile.php?id=61571654990092"  target="_blank">
                                         <IconsFacebook />
                                     </a>
                                 </li>
@@ -26,7 +26,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="https://x.com/AdisEnerji " target="_blank">
                                         <IconsTwitter />
                                     </a>
                                 </li>
