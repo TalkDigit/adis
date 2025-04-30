@@ -20,7 +20,7 @@
                 Depolamalı RES <IconsRightold />
             </div>
 
-            <div class="tab-title kislacik" :class="{ active: activeTab === 4 }" @click="activeTab = 4">
+            <div class="tab-title bildim" :class="{ active: activeTab === 4 }" @click="activeTab = 4">
                 Bildim <br />
                 Depolamalı GES <IconsRightold />
             </div>

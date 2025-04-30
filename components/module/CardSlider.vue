@@ -4,6 +4,9 @@
     <a class="mobileNone" href="#" @click.prevent="goNext">
       <IconsGray />
     </a>
+    <a class="mobileNone prevs" href="#" @click.prevent="goPrev">
+      <IconsGray />
+    </a>
 
     <!-- Swiper bileşeni -->
     <Swiper
@@ -59,6 +62,12 @@ const onSwiper = (swiper) => {
 const goNext = () => {
   if (swiperInstance.value) {
     swiperInstance.value.slideNext();
+  }
+};
+
+const goPrev = () => {
+  if (swiperInstance.value) {
+    swiperInstance.value.slidePrev();
   }
 };
 
@@ -158,13 +167,17 @@ const breakpoints = {
 .cardSlider{
   position: relative;
 }
+
 .cardSlider a{
   position: absolute;
-    right: 260px;
+    right: 100px;
     top: 0px;
     z-index: 3;
 } 
-
+.prevs{
+    right: 250px !important;
+    transform: rotate(-180deg);
+}
 @media(max-width:1400px){
   .cardSlider a{
   position: absolute;

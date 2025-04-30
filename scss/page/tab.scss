@@ -199,7 +199,7 @@
 
 
                 .gaziantep{
-                    fill: #A1CA3C;
+                    fill: #EFC100;
                 }
              }
         }
@@ -283,13 +283,13 @@
 
 
       .gaziantepPin{
-        transform: translate(3350px, 1801px);
+        transform: translate(3320px, 1801px);
         opacity: 0;
         font-size:35px;
           transition: all .3s;
       }
       .gaziantepAltPin{
-        transform:translate(3320px, 1841px);
+        transform:translate(3360px, 1841px);
         font-size:30px;
         opacity: 0;
           transition: all .3s;
@@ -302,6 +302,11 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
+    }
+    .bildim{
+        &.active{
+            background: #EFC100 !important;
+        }
     }
     
     .tab-title {
