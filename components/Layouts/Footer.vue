@@ -16,17 +16,17 @@
                 <div class="socialFooter">
                             <ul>
                                 <li>
-                                    <a href="https://www.facebook.com/profile.php?id=61571654990092"  target="_blank">
+                                    <a href="https://www.facebook.com/profile.php?id=61575950666062"  target="_blank">
                                         <IconsFacebook />
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="https://www.instagram.com/adis.enerji/" target="_blank">
                                         <IconsInstagram />
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://x.com/AdisEnerji " target="_blank">
+                                    <a href="https://x.com/Adis_enerji" target="_blank">
                                         <IconsTwitter />
                                     </a>
                                 </li>
@@ -35,11 +35,11 @@
                                         <IconsLinkedin />
                                     </a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a href="#">
                                         <IconsYoutube />
                                     </a>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
                 <!-- <div class="input-container">
