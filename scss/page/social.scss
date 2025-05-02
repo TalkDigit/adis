@@ -1,6 +1,13 @@
 .socialSection{
     padding: 60px 0px;
     overflow: hidden;
+    @media(max-width:550px){
+        padding-bottom: 0px !important;
+    }
+    @media(min-width:550px) and (max-width:768px){
+        padding-bottom: 240px !important;
+    }
+    
     .socialTitle{
         text-align: center;
         h5{
@@ -19,7 +26,7 @@
 @media(max-width:768px){
     .socialSection{
         padding: 50px 0 !important;
-        padding-bottom: 240px !important;
+       
         .slider-container{
             min-height: 650px;
             height: 100% !important;
@@ -51,11 +58,17 @@
             &:after{
                 content: url(/assets/images/pb.svg) !important; 
             }
+            @media(max-width:550px){
+                left: 0px !important;
+            }
         }
         .next{
             right: 30px !important;
             &:after{
                 content: url(/assets/images/mb.svg) !important; 
+            }
+            @media(max-width:550px){
+                right: 0px !important;
             }
         }
         .sliderContent{

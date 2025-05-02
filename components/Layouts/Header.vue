@@ -22,12 +22,12 @@
                     </ul>
 
                     <!-- Arama -->
-                    <div class="icon-search-container" :class="{ active: isActive }" @click="toggleSearch" ref="searchContainer">
+                    <!-- <div class="icon-search-container" :class="{ active: isActive }" @click="toggleSearch" ref="searchContainer">
                         <div class="icon-wrapper" @click="searchTerm">
                             <IconsSearch />
                         </div>
                         <input ref="searchInput" v-model="search" class="search-input" @keyup.enter="searchTerm" placeholder="Search" @focus="onFocus" @blur="onBlur" @click.stop />
-                    </div>
+                    </div> -->
 
                     <!-- Mobilde Popup Açılan Arama -->
                     <div v-if="isActive && isMobile" class="search-popup">

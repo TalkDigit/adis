@@ -9,7 +9,8 @@
         height: 100%;
         position: relative;
         transition: transform 0.3s ease-in-out;
-
+        backface-visibility: hidden;
+        will-change: transform;
         &:before {
             content: "";
             position: absolute;
@@ -19,14 +20,16 @@
             transition: opacity 0.3s ease-in-out;
             background-size: cover;
             z-index: -1;
-        }
+            will-change: opacity;
+          }
 
-        &:hover {
-            // transform: scale(1.1);
+          &:hover {
             h4 {
-                font-size: 30px;
-                transition: font-size 0.3s ease-in-out; // Hatalı olan transform yerine font-size ekledim
+                scale: 1.2;
+                transition: all .3s;
+
             }
+          
             &:before {
                 opacity: 1;
             }
@@ -59,7 +62,8 @@
             text-align: center;
             letter-spacing: -0.88px;
             margin-bottom: 27px;
-            transition: font-size 0.3s ease-in-out;
+            transition: all .3s;
+            margin-top: 20px;
         }
 
         p {
@@ -78,6 +82,9 @@
             transition: transform 0.3s ease-in-out, background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
             border-radius: 100px;
             margin-bottom: 10px;
+            -webkit-transition: transform 0.3s ease-in-out;
+
+
             img{
                 transition: transform 0.3s ease-in-out;
             }

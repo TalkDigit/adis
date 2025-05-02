@@ -73,6 +73,18 @@ const submitForm = (event) => {
         return false; // Prevent further form submission
     }
 
+    // Check if the KVKK checkbox is accepted
+    if (!kvkkAccepted.value) {
+        // Show notification if KVKK checkbox is not checked
+        notification({
+            type: "danger",
+            head: "Hata",
+            message: "KVKK metnini kabul etmeniz gerekmektedir.",
+            timer: 5000
+        });
+        return false; // Prevent form submission if KVKK is not accepted
+    }
+
     // Proceed with form submission
     const form = new FormData();
     const dataObj = FormStore.FormCheck;
@@ -98,6 +110,7 @@ const submitForm = (event) => {
         timer: 5000 // Adjust timer if necessary
     });
 };
+
 
 
 
@@ -165,5 +178,7 @@ const maskPhoneNumber = (event) => {
 .kvkk-link:hover {
     color: darkblue;
 }
-
+input:focus{
+    outline:none
+}
 </style>
