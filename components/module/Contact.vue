@@ -29,7 +29,7 @@
                                     <p>info@adisenerji.com.tr</p>
                                 </div>
                             </a>
-                            <a href="#" target="_blank" class="contact-item">
+                            <a href="https://maps.app.goo.gl/garum9TKRw5JAoYo7" target="_blank" class="contact-item">
                                 <IconsAdress/>
                                 <div class="contact-item-content">
                                     <h2>{{ $t('adres') }}</h2>
@@ -40,6 +40,9 @@
 
                        <ModuleForm/>
                     </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-8 col-xl-6 mapss">
+                    <a href="#"></a>
                 </div>
             </div>
         </div>

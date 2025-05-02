@@ -31,7 +31,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="https://www.linkedin.com/in/adis-enerji-357921363/"target="_blank" >
                                         <IconsLinkedin />
                                     </a>
                                 </li>

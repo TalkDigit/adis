@@ -22,6 +22,8 @@ footer{
         filter: blur(6px);
         top: -57%;
         z-index: -1;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .sendFooter{
         margin-bottom: 160px;
