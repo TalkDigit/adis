@@ -285,3 +285,8 @@ body{
 .active .icon-wrapper{
   right: 12px !important;
 }
+
+header .headerRight ul li.active a {
+  font-weight: bold;
+  color: #0c4282; /* örnek renk, istersen kaldır veya değiştir */
+}

@@ -9,9 +9,16 @@
                 </a>
                 <div class="headerRight">
                     <ul :class="{ active: isMenuOpen }">
-                        <li><a :href="$t('hakkimizdaLink')">{{ $t('hakkimizda') }}</a></li>
-                        <li><a :href="$t('projelerLink')">{{ $t('projeler') }}</a></li>
-                        <li><a :href="$t('iletisimLink')">{{ $t('iletisim') }}</a></li>
+                        <li :class="{ active: route.path === $t('hakkimizdaLink') }">
+                            <a :href="$t('hakkimizdaLink')">{{ $t('hakkimizda') }}</a>
+                            </li>
+                            <li :class="{ active: route.path === $t('projelerLink') }">
+                            <a :href="$t('projelerLink')">{{ $t('projeler') }}</a>
+                            </li>
+                            <li :class="{ active: route.path === $t('iletisimLink') }">
+                            <a :href="$t('iletisimLink')">{{ $t('iletisim') }}</a>
+                            </li>
+
                     </ul>
 
                     <!-- Arama -->
