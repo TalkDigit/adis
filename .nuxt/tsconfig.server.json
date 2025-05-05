@@ -137,8 +137,23 @@
       "#aos/*": [
         "../node_modules/nuxt-aos/dist/runtime/*"
       ],
+      "#sitemap": [
+        "../node_modules/@nuxtjs/sitemap/dist/runtime"
+      ],
+      "#sitemap/*": [
+        "../node_modules/@nuxtjs/sitemap/dist/runtime/*"
+      ],
+      "#site-config": [
+        "../node_modules/nuxt-site-config/dist/runtime"
+      ],
+      "#site-config/*": [
+        "../node_modules/nuxt-site-config/dist/runtime/*"
+      ],
       "#vue-router": [
         "./vue-router"
+      ],
+      "#internal/nuxt-site-config": [
+        "../node_modules/nuxt-site-config/dist/runtime/server/composable-barrel-deprecated"
       ]
     },
     "lib": [
@@ -152,8 +167,12 @@
     "../node_modules/@pinia/nuxt/runtime/server",
     "../node_modules/@nuxtjs/i18n/runtime/server",
     "../node_modules/nuxt-aos/runtime/server",
+    "../node_modules/nuxt-site-config/dist/module.mjs/runtime/server",
+    "../node_modules/@nuxtjs/sitemap/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",
+    "./module/nuxt-site-config.d.ts",
+    "./module/@nuxtjs-sitemap.d.ts",
     "./types/nitro.d.ts",
     "../**/*",
     "../server/**/*"
@@ -161,6 +180,7 @@
   "exclude": [
     "../node_modules",
     "../node_modules/nuxt/node_modules",
+    "../node_modules/nuxt-site-config/node_modules",
     "../dist"
   ]
 }

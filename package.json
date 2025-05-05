@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxtjs/sitemap": "^7.2.10",
     "bootstrap": "^5.3.3",
     "duct-notification": "^1.0.6",
     "jquery": "^3.7.1",

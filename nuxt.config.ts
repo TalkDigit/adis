@@ -32,9 +32,31 @@ export default defineNuxtConfig({
     global: true,
     dirs: ['~/components']
   },
+  sitemap: {
+    xsl: false,
+    //path: '/sitemap.xml',
+    //hostname:process.env.HOST_NAME,
+    //sources: [process.env.DOMAIN+'/api/sitemap/tr'],
+    /*excludeAppSources: true,
+    defaults: {
+        changefreq: 'daily',
+        priority: 1,
+        lastmod: new Date()
+    }*/
+    /*sitemaps : {
+      tr  : {
+        sources: [process.env.DOMAIN+'/api/__sitemap__/tr'],
+      },
+    }*/
+    sitemaps : {
+      tr :  {
+        sources: ['/api/__sitemap__/tr'],
+      }
+    },
+  },
   plugins: [
     { src: "~/plugins/jquery", mode: "client" },
     { src: "~/plugins/bootstrap.ts", mode: "client" }
   ],
-  modules: ['@pinia/nuxt', '@nuxtjs/i18n', "nuxt-aos"]
+  modules: ['@pinia/nuxt', '@nuxtjs/i18n', "nuxt-aos",  '@nuxtjs/sitemap']
 })
