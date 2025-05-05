@@ -59,7 +59,7 @@
                 content: url(/assets/images/pb.svg) !important; 
             }
             @media(max-width:550px){
-                left: 0px !important;
+                left: 10px !important;
             }
         }
         .next{
@@ -68,7 +68,7 @@
                 content: url(/assets/images/mb.svg) !important; 
             }
             @media(max-width:550px){
-                right: 0px !important;
+                right: 10px !important;
             }
         }
         .sliderContent{

@@ -154,6 +154,10 @@
             }
         }
     }
+    .cardSlider .swiper-container{
+       padding-bottom: 50px !important;
+
+      }
 }
 
 @media(min-width:768px) and (max-width:992px){
@@ -197,3 +201,24 @@
     border-radius: 35px !important;
   }
   
+
+  .mobileCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    .prevs{
+        transform: rotate(-180deg);
+    }
+    a{
+        position: relative !important;
+        top: auto !important;
+        bottom: 0px !important;
+        right: auto !important;
+        svg{
+            width: 70px !important;
+            height: 70px !important;
+        }
+    }
+  }

@@ -15,10 +15,13 @@
             <div class="bottomAbout">
                 <div>
                     <h5 v-if="getData(data, 'alt_baslik')" v-html="getData(data, 'alt_baslik')"> </h5>
-                    <a :href="getData(data, 'link')"  v-if="getData(data, 'link_baslik')">{{ getData(data, 'link_baslik') }} <IconsRighttwo/></a>
+                    <a  class="mobile__none" :href="getData(data, 'link')"  v-if="getData(data, 'link_baslik')">{{ getData(data, 'link_baslik') }} <IconsRighttwo/></a>
                 </div>
                 <p  v-if="getData(data, 'alt_aciklama')" v-html="getData(data, 'alt_aciklama')">
                 </p>
+
+                <a  class="desktop__none" :href="getData(data, 'link')"  v-if="getData(data, 'link_baslik')">{{ getData(data, 'link_baslik') }} <IconsRighttwo/></a>
+
             </div>
         </div>
     </section>

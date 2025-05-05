@@ -27,7 +27,11 @@
         </div>
 
         <!-- Dinamik Tab İçerikleri -->
-        <div v-for="(tabData, index) in tabsData" :key="index">
+        <div <div
+  v-for="(tabData, index) in tabsData"
+  :key="index"
+  :ref="el => tabContentRefs[index] = el"
+>
             <div class="tab-content" v-show="activeTab === index">
                 <div class="contentFlex">
                     <div class="div">
@@ -89,9 +93,27 @@
 </template>
 
 <script setup>
-    import { ref, computed } from "vue";
 
+
+    import { ref, computed, watch, onMounted } from 'vue';
     const activeTab = ref(0);
+const tabContentRefs = ref([]);
+
+// Scroll sadece mobilde aktif olsun
+watch(activeTab, (newIndex) => {
+  if (window.innerWidth <= 768) {
+    // bir süre sonra scroll yapılmalı, yoksa içerik henüz DOM'da değil
+    nextTick(() => {
+      const el = tabContentRefs.value[newIndex];
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  }
+});
+
+
+
 
     // Her tab için özel veriler
     const tabsData = [

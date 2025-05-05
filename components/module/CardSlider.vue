@@ -1,6 +1,6 @@
 <template>
   <section class="cardSlider">
-    <!-- Tıklandığında ileri kaydıran buton -->
+
     <a class="mobileNone" href="#" @click.prevent="goNext">
       <IconsGray />
     </a>
@@ -8,7 +8,6 @@
       <IconsGray />
     </a>
 
-    <!-- Swiper bileşeni -->
     <Swiper
       ref="swiperRef"
       :modules="[SwiperAutoplay]"
@@ -40,6 +39,16 @@
         </div>
       </SwiperSlide>
     </Swiper>
+
+    <div class="mobileCard">
+      <a class=" prevs" href="#" @click.prevent="goPrev">
+      <IconsGray />
+    </a>
+      <a class="" href="#" @click.prevent="goNext">
+      <IconsGray />
+    </a>
+ 
+    </div>
   </section>
 </template>
 
@@ -49,16 +58,13 @@ import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Autoplay as SwiperAutoplay } from 'swiper/modules';
 import 'swiper/css';
 
-// Swiper örneğini tutacak ref
 const swiperRef = ref(null);
 const swiperInstance = ref(null);
 
-// Swiper örneği hazır olduğunda yakalıyoruz
 const onSwiper = (swiper) => {
   swiperInstance.value = swiper;
 };
 
-// Tıklanınca bir sonraki slayta geç
 const goNext = () => {
   if (swiperInstance.value) {
     swiperInstance.value.slideNext();
@@ -136,7 +142,7 @@ const breakpoints = {
     spaceBetween: 30,
   },
   992: {
-    slidesPerView: 3.1,
+    slidesPerView: 2.3,
     spaceBetween: 30,
   },
   500: {
@@ -144,8 +150,8 @@ const breakpoints = {
     spaceBetween: 10,
   },
   0: {
-    slidesPerView: 1.4,
-    spaceBetween: 30,
+    slidesPerView: 1.2,
+    spaceBetween: 15,
   },
 };
 </script>
@@ -153,7 +159,7 @@ const breakpoints = {
 
 <style>
 @media(max-width:992px){
-  .cardSlider a{
+  .cardSlider .mobileNone a{
  display: none;
 } 
 
@@ -181,7 +187,7 @@ const breakpoints = {
 @media(max-width:1400px){
   .cardSlider a{
   position: absolute;
-    right: 30px !important;
+    right: 30px ;
     top: 0px;
     z-index: 3;
 } 

@@ -105,17 +105,21 @@
 @media(max-width:768px){
     .energySection{
         margin: 0px !important;
-        
+        .col-sm-12 {
+            margin-bottom: 20px;
+        }
         .energyContent {
             padding: 33px !important;
             height: 100% !important;
+           
             .energyIcon{
                 width: 145px !important;
                 height: 145px !important;
             }
             &:before{
                 border-radius: 40px !important;
-                background: transparent linear-gradient(180deg, #F7F7F7 0%, #F7F7F700 100%) 0% 0% no-repeat padding-box !important;
+                // background: transparent linear-gradient(180deg, #F7F7F7 0%, #F7F7F700 100%) 0% 0% no-repeat padding-box !important;
+                background: white;
             }
             h4 {
                 font-size: 22px !important;
