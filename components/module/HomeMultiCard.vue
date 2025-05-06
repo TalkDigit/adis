@@ -6,7 +6,7 @@
                     <div class="energyContent" data-aos="zoom-in" data-aos-duration="1000">
                         <div class="energyIcon">
                             <!-- <IconsWind/> -->
-                            <img :src="getAssets(getData(item, 'icon'))"/>
+                            <img width="auto" height="auto" :src="getAssets(getData(item, 'icon'))"/>
 
                         </div>
                         <h4  v-html="getData(item, 'baslik')">
