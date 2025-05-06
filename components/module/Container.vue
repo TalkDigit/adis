@@ -1,6 +1,6 @@
 <template>
     <div class="containerImg">
-        <img src="/assets/images/kutu.webp" width="857" height="522" alt="Raf Görseli" />
+        <img src="/assets/images/kutu-min.webp" width="857" height="522" alt="Raf Görseli" />
 
         <!-- Marker 1 -->
         <div class="marker" data-line="vertical" style="width:90px; height:90px; top: -14%; right: 22%;">
