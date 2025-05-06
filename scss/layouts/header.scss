@@ -218,20 +218,9 @@ header {
           justify-content: center;
         }
       }
-      .bg-video {
-        pointer-events: none; /* Tıklamayı devre dışı bırakır */
-        user-select: none;    /* Seçilmeyi engeller */
-        display: block;
-        width: 100%;
-        height: auto;
-        object-fit: cover;    /* İsteğe bağlı, video boyutunu kaplamak için */
-      }
-
 
         video{
-          width: 100%;
-          max-width: 360px;
-          object-fit: contain;
+          display: none;
         }
         .hamburger {
             display: flex;
@@ -239,9 +228,7 @@ header {
         .langBtn{
           display: none;
         }
-         .desktopnone{
-          display: none !important;
-        }
+
     }
 }
 
