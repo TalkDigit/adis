@@ -17,6 +17,7 @@
     "jquery": "^3.7.1",
     "nuxt": "^3.12.4",
     "nuxt-aos": "^1.2.5",
+    "nuxt-vitalizer": "^0.10.0",
     "slick-carousel": "^1.8.1",
     "swiper": "^11.2.6",
     "vue": "latest"
