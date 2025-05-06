@@ -219,7 +219,7 @@ header {
         }
       }
         video{
-          // display: none;
+           display: none;
           width: 100%;
           max-width: 360px;
           object-fit: contain;
@@ -230,9 +230,7 @@ header {
         .langBtn{
           display: none;
         }
-         .desktopnone{
-          display: none !important;
-        }
+
     }
 }
 
