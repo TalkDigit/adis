@@ -3,7 +3,7 @@
         <div class="container">
             <div class="headerFlex">
                 <a href="/" class="video">
-                    <video autoplay loop muted>
+                    <video autoplay loop muted playsinline class="bg-video">
                         <source src="/assets/images/logo/logoneww.mp4" type="video/mp4" />
                     </video>
                 </a>
