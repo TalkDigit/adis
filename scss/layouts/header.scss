@@ -218,14 +218,20 @@ header {
           justify-content: center;
         }
       }
-        .video{
-          display: none;
+        video{
+          // display: none;
+          width: 100%;
+          max-width: 360px;
+          object-fit: contain;
         }
         .hamburger {
             display: flex;
         }
         .langBtn{
           display: none;
+        }
+         .desktopnone{
+          display: none !important;
         }
     }
 }

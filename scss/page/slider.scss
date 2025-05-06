@@ -4,7 +4,7 @@
     .afterImg{
         position: relative;
         &:after{
-            content: url("/assets/images/afterslider.png");
+            content: url("/assets/images/afterslider.webp");
             position: absolute;
             right: -126px;
             bottom: -101px;
@@ -13,7 +13,7 @@
     }
     &:after{
         content: "";
-        background: url("/assets/images/banner-min.png") no-repeat center center;
+        background: url("/assets/images/banner-min.webp") no-repeat center center;
         background-size: cover; /* Görselin genişlik ve yükseklik oranını bozmadan alanı kaplamasını sağlar */
         position: absolute;
         top: 280px; /* Üst kısmını sabitler */

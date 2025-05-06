@@ -23,7 +23,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 afterImg">
-                    <img src="/assets/images/sliderImg.png" alt=""/>
+                    <img src="/assets/images/sliderImg.webp" alt=""/>
                 </div>
             </div>
         </div>

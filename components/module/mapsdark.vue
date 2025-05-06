@@ -939,18 +939,14 @@
   stroke: #384553;
 }
 
-@supports (-webkit-transform: rotate(0deg)) {
-  .scale.hovered {
-    transform: none !important; /* Safari'de transform'ı devre dışı bırak */
-  }
-  .scale2.hovered {
-    transform: none !important; /* Safari'de transform'ı devre dışı bırak */
-  }
-  .scale3.hovered {
-    transform: none !important; /* Safari'de transform'ı devre dışı bırak */
-  }
-  .scale4.hovered {
-    transform: none !important; /* Safari'de transform'ı devre dışı bırak */
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) {
+    .scale.hovered,
+    .scale2.hovered,
+    .scale3.hovered,
+    .scale4.hovered {
+      transform: none !important;
+    }
   }
 }
 
@@ -967,4 +963,18 @@ const isHovered1 = ref(false)
 const isHovered2 = ref(false)
 const isHovered3 = ref(false)
 const isHovered4 = ref(false)
+
+
+
+
+onMounted(() => {
+  const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+  if (isSafari) {
+    document.body.classList.add('safari-browser');
+  }
+});
+
+
+
+
 </script>

@@ -50,19 +50,19 @@
 
     const items = ref([
         {
-            image: "/assets/images/siralama.png",
+            image: "/assets/images/siralama.webp",
             title: "Türkiye Yenilenebilir Enerjide Dünya Sıralamasında Yükseliyor",
             description:
                 "Türkiye, yenilenebilir enerji kurulu gücünde dünyada 11’inci sıraya yerleşti. Enerji ve Tabii Kaynaklar Bakanlığı’nın verilerine göre, 2024’te güneş ve rüzgar enerjisi kapasitesi önemli ölçüde arttı. Ülke, 2035’e kadar her yıl 5 bin MW yeni yenilenebilir enerji kapasitesi eklemeyi hedefliyor. Özellikle güneş enerjisinde İç Anadolu, rüzgarda ise Ege Bölgesi üretim üssü haline geliyor. Bu gelişmeler, Türkiye’nin 2053 Net Sıfır Karbon hedefi için kritik bir adım olarak görülüyor.",
         },
         {
-            image: "/assets/images/social.png",
+            image: "/assets/images/social.webp",
             title: "Türkiye’de Depolamalı Rüzgar Enerjisi Projelerine Rekor Yatırım",
             description:
                 "Türkiye, depolamalı rüzgar enerjisi santrallerine yönelik yatırımları hızlandırıyor. 2024’te başlatılan yeni projelerle, 10 yıl içinde 19 milyar avroluk yatırım planlanıyor. Bu santraller, rüzgar enerjisinin gece ve düşük rüzgarlı dönemlerde de kullanılmasını sağlayacak. Bakanlık, bu hamlenin enerji ithalatını azaltarak cari açığa pozitif katkı yapacağını belirtiyor.",
         },
         {
-            image: "/assets/images/dunya.png",
+            image: "/assets/images/dunya.webp",
             title: "Geleceğin Enerjisi Depolanıyor!",
             description:
                 "Güneş ve rüzgar enerjisi artık daha güçlü! Enerji depolama sistemleri, üretilen temiz elektriğin ihtiyaç duyulduğu anda kullanılmasını sağlayarak şebeke istikrarını artırıyor ve kesintisiz enerji sunuyor. Dünya genelinde hızla yayılan bu teknoloji, yenilenebilir enerjinin potansiyelini zirveye taşıyor ve enerji geleceğimize yön veriyor.",
