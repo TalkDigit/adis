@@ -31,10 +31,7 @@
     <div v-if="showKvkkPopup" class="kvkk-popup">
         <div class="kvkk-popup-content">
             <button class="close-btn" @click="showKvkkPopup = false">✖</button>
-            <h3>Kişisel Verilerin Korunması Aydınlatma Metni</h3>
-            <p>
-                Kişisel verileriniz 6698 sayılı Kişisel Verilerin Korunması Kanunu çerçevesinde işlenmektedir. Detaylı bilgi için lütfen KVKK metni ni okuyunuz.
-            </p>
+            <ModuleKvkk/>
         </div>
     </div>
 </template>
