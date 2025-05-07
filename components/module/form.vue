@@ -11,7 +11,7 @@
 
         <input class="w-100 mw-100" type="text" :placeholder="$t('konu')" v-model="FormStore.FormCheck['subject']" />
         <textarea :placeholder="$t('mesaj')" v-model="FormStore.FormCheck['message']"></textarea>
-
+      
         <!-- KVKK Checkbox -->
         <label class="custom-checkbox">
             <input type="checkbox" v-model="kvkkAccepted" />
@@ -28,7 +28,7 @@
     </form>
 
     <!-- KVKK Popup -->
-    <div v-if="showKvkkPopup" class="kvkk-popup">
+    <div v-if="showKvkkPopup" class="kvkk-popup" @click.self="showKvkkPopup = false">
         <div class="kvkk-popup-content">
             <button class="close-btn" @click="showKvkkPopup = false">✖</button>
             <ModuleKvkk/>
@@ -39,10 +39,17 @@
 
 <script setup>
 import { ref } from "vue";
+
+
+
 import notification from "duct-notification";
 import getData from "@/utilities/getData";
 import getAssets from "@/utilities/getAssets";
+const { data } = defineProps(["data"]);
+
+
 const FormStore = useForm();
+
 
 const kvkkAccepted = ref(false);
 const showKvkkPopup = ref(false); // ✅ Popup için ref eklendi
@@ -141,6 +148,7 @@ const maskPhoneNumber = (event) => {
     align-items: center;
     justify-content: center;
     z-index: 1000;
+    overflow: hidden;
 }
 .kvkk-popup-content {
     background: white;
@@ -149,6 +157,9 @@ const maskPhoneNumber = (event) => {
     max-width:900px;
     border-radius: 10px;
     position: relative;
+    height: 600px;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 .kvkk-popup-content h3{
     font-size:22px;

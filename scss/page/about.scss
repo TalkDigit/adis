@@ -300,3 +300,32 @@
         
     }
 }
+
+.kvkk-popup-content{
+    h1,h2,h3{
+        font-size: 22px !important;
+        letter-spacing: -1.13px;
+        color: #565656;
+    }
+    h4{
+        font-size: 16px !important;
+        letter-spacing: -1.13px;
+        color: #565656;
+    }
+    p{
+        font-size: 16px !important;
+        color: #565656 !important;
+    }
+    ul{
+        li{
+            font-size: 16px;
+            color: #565656;
+        }
+    }
+    tr{
+        border: 1px solid #565656;
+    }
+    td{
+        border: 1px solid #565656;
+    }
+}
