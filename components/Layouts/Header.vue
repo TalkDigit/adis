@@ -38,7 +38,7 @@
                     </div>
 
                     <a href="/">
-                        <img class="desktopnone" src="/assets/images/mobilelogo.png" />
+                        <img class="desktopnone" src="/assets/images/logo-energy.png" />
                     </a>
 
                     <!-- <ModuleLang/> -->

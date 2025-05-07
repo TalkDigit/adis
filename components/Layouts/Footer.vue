@@ -127,7 +127,7 @@
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-4 ">
                         <div class="footer_img">
-                            <img width="auto" height="auto" src="/assets/images/footerLogo.webp" alt="Logo" />
+                            <img width="auto" height="auto" src="/assets/images/logo-energy.png" alt="Logo" />
                         </div>
                     </div>
                     <!-- <div class="col-sm-12 col-md-6 col-lg-6 socialdiv">
