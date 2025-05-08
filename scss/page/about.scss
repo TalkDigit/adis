@@ -325,15 +325,15 @@
         }
     }
     th{
-        background-color: transparent;
+        background-color: transparent !important;
     }
     tr{
         border: 1px solid #565656;
-        background-color: transparent;
+        background-color: transparent !important;
     }
     td{
         border: 1px solid #565656;
-        background-color: transparent;
+        background-color: transparent !important;
         vertical-align: middle;
     } 
 }
