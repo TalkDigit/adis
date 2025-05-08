@@ -130,6 +130,12 @@
                             <img width="auto" height="auto" src="/assets/images/logo-energy.png" alt="Logo" />
                         </div>
                     </div>
+                    <div class="col-sm-12 col-md-12 col-lg-12 kvkk">
+                        <a href="/kisisel-verilerin-korunmasi-kanunu">
+                        KVKK Aydınlatma Metni
+                        </a>
+                    </div>
+                   
                     <!-- <div class="col-sm-12 col-md-6 col-lg-6 socialdiv">
                         <div class="socialFooter">
                             <ul>

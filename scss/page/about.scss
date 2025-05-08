@@ -300,8 +300,45 @@
         
     }
 }
-
+.kvkk{
+    table{
+        background-color: transparent;
+    }
+    h1,h2,h3{
+        font-size: 22px !important;
+        letter-spacing: -1.13px;
+        color: #565656;
+    }
+    h4{
+        font-size: 16px !important;
+        letter-spacing: -1.13px;
+        color: #565656;
+    }
+    p{
+        font-size: 16px !important;
+        color: #565656 !important;
+    }
+    ul{
+        li{
+            font-size: 16px;
+            color: #565656;
+        }
+    }
+    th{
+        background-color: transparent;
+    }
+    tr{
+        border: 1px solid #565656;
+        background-color: transparent;
+    }
+    td{
+        border: 1px solid #565656;
+        background-color: transparent;
+        vertical-align: middle;
+    } 
+}
 .kvkk-popup-content{
+
     h1,h2,h3{
         font-size: 22px !important;
         letter-spacing: -1.13px;
@@ -327,5 +364,20 @@
     }
     td{
         border: 1px solid #565656;
+    }
+}
+.kvkk{
+    a{
+        display: flex;
+            flex-direction: column;
+            color: #565656;
+            font-size: 16px;
+            letter-spacing: -0.55px;
+            font-weight: 300;
+            text-decoration: underline !important;
+            line-height: 20px;
+            margin-top: 20px;
+            justify-content: center;
+            align-items: flex-end;
     }
 }
