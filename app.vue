@@ -31,14 +31,14 @@ useHead({
       content: locale.value == "tr" ? "tr-TR" : "en-US",
     },
   ],
-  link: [
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '32x32',
-      href: '/assets/images/footerLogo.webp'
-    }
-  ]
+  // link: [
+  //   {
+  //     rel: 'icon',
+  //     type: 'image/png',
+  //     sizes: '32x32',
+  //     href: '/assets/images/footerLogo.webp'
+  //   }
+  // ]
 });
 
 await callOnce(SettingsStore.FetchSettings);
