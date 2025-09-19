@@ -94,13 +94,13 @@ const cards = [
     after: false,
   },
   {
-    title: "Güneş Enerjisi <b>Türkiye’de Hızla Yükseliyor</b>",
+    title: "Tüm enerjimizi daha temiz bir dünya için harcıyoruz. ",
     description: "",
     image: "/assets/images/slider3.webp",
     after: true,
   },
   {
-    title: "Tüm enerjimizi daha temiz bir dünya için harcıyoruz.",
+    title: "Güneş Enerjisi <b>Türkiye’de Hızla Yükseliyor</b>",
     description: "",
     image: "/assets/images/slider4.webp",
     after: false,
