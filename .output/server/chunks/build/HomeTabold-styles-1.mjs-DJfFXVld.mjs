@@ -1,0 +1,4 @@
+const HomeTabold_vue_vue_type_style_index_0_lang = ".tab-content{background:#f9f9f9;border-radius:0 0 8px 8px;margin-bottom:20px;padding:20px}.contentFlex{display:flex;margin-bottom:30px}.contentFlex .div{align-items:flex-start;display:flex;gap:15px;max-width:800px}.circleTab{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}.power-capacity{background:#fff;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,.05);padding:20px;text-align:center}.capacity-value{color:#2e7d32;display:block;font-size:24px;font-weight:700;margin:10px 0}.capacity-label{color:#666;font-size:14px}small{color:#555;font-size:14px}";
+
+export { HomeTabold_vue_vue_type_style_index_0_lang as H };
+//# sourceMappingURL=HomeTabold-styles-1.mjs-DJfFXVld.mjs.map

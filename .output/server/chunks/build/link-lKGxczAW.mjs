@@ -1,0 +1,23 @@
+import { mergeProps, useSSRContext } from 'vue';
+import { ssrRenderAttrs } from 'vue/server-renderer';
+import { _ as _export_sfc } from './_plugin-vue_export-helper-1tPrXgE0.mjs';
+
+const _sfc_main = {};
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  _push(`<svg${ssrRenderAttrs(mergeProps({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "82.817",
+    height: "82.818",
+    viewBox: "0 0 82.817 82.818"
+  }, _attrs))}><g id="Group_5917" data-name="Group 5917" transform="translate(-1482.75 -1176.75)"><path id="Path_16703" data-name="Path 16703" d="M2,42.659C2,12.167,12.167,2,42.659,2S83.317,12.167,83.317,42.659,73.15,83.319,42.659,83.319,2,73.152,2,42.659Z" transform="translate(1481.5 1175.5)" fill="none" stroke="#0c4282" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path><path id="Path_16704" data-name="Path 16704" d="M18,44.527,34.264,28.264,18,12" transform="translate(1500.459 1190.022)" fill="none" stroke="#0c4282" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path><path id="Path_16705" data-name="Path 16705" d="M12,18H63.223" transform="translate(1471.5 1200.286)" fill="none" stroke="#0c4282" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></g></svg>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Icons/link.vue");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const link = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+
+export { link as default };
+//# sourceMappingURL=link-lKGxczAW.mjs.map

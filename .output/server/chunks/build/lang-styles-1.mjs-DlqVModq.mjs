@@ -1,0 +1,4 @@
+const lang_vue_vue_type_style_index_0_lang = ".dropdown{display:inline-block;position:relative}.dropdown-menu{background:transparent;border:none;border-radius:5px;box-shadow:none;list-style:none;margin-left:10px;min-width:50px;opacity:0;padding:0;position:absolute;transition:opacity .3s ease,visibility .3s;visibility:hidden;z-index:1000}.dropdown-menu:hover a{background-color:transparent!important;box-shadow:none!important}.dropdown-menu.show{opacity:1;visibility:visible}";
+
+export { lang_vue_vue_type_style_index_0_lang as l };
+//# sourceMappingURL=lang-styles-1.mjs-DlqVModq.mjs.map

@@ -1,0 +1,1 @@
+import{g as t}from"./Bu8GIsM2.js";import{c as a,o as n,j as r,k as o}from"./BtKcbElo.js";const c=["innerHTML"],u={__name:"exampleModule",props:["data"],setup(e){const{data:s}=e;return(m,l)=>(n(),a("div",null,[o(t)(e.data,"metin")?(n(),a("div",{key:0,class:"w-100",innerHTML:o(t)(e.data,"metin")},null,8,c)):r("",!0)]))}};export{u as default};

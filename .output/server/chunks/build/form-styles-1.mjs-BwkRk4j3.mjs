@@ -1,0 +1,4 @@
+const form_vue_vue_type_style_index_0_scoped_c6fea133_lang = ".kvkk-popup[data-v-c6fea133]{align-items:center;background:rgba(0,0,0,.5);display:flex;height:100%;justify-content:center;left:0;overflow:hidden;position:fixed;top:0;width:100%;z-index:1000}.kvkk-popup-content[data-v-c6fea133]{background:#fff;border-radius:10px;height:600px;max-width:900px;overflow:hidden;overflow-y:scroll;padding:20px;position:relative;width:100%}.kvkk-popup-content h3[data-v-c6fea133]{color:#565656;font-size:22px}.kvkk-popup-content p[data-v-c6fea133]{color:#9b9b9b;font-size:14px}.close-btn[data-v-c6fea133]{background:none;border:none;cursor:pointer;font-size:20px;position:absolute;right:10px;top:10px}.kvkk-link[data-v-c6fea133]{cursor:pointer;text-decoration:underline}.kvkk-link[data-v-c6fea133]:hover{color:#00008b}input[data-v-c6fea133]:focus{outline:none}";
+
+export { form_vue_vue_type_style_index_0_scoped_c6fea133_lang as f };
+//# sourceMappingURL=form-styles-1.mjs-BwkRk4j3.mjs.map
