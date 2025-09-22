@@ -862,7 +862,7 @@
             />
         </svg>
 
-        <image xlink:href="/assets/images/kislacik.png" x="694" y="294" width="58" height="58" xmlns:xlink="http://www.w3.org/1999/xlink" />
+        <image xlink:href="/assets/images/guenss.png" x="694" y="294" width="58" height="58" xmlns:xlink="http://www.w3.org/1999/xlink" />
         <text x="770" y="310" class="textMap"> Bildim Depolamalı</text>
         <text x="770" y="330" class="textMap">GES - 100 MW </text>
         <text x="770" y="350" class="textMap b">Gaziantep / Yavuzeli</text>
