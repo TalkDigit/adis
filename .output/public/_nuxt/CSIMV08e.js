@@ -1,0 +1,1 @@
+import e from"./D9sXMkNV.js";import{_ as c}from"./DlAUqK2U.js";import{c as t,o as n,a as s,b as _}from"./gyDuP2bA.js";const a={},r={class:"projectsMap"},i={class:"container"},d={class:"svgWrapper"},p={class:"svgInner"};function m(f,l){const o=e;return n(),t("section",r,[s("div",i,[s("div",d,[s("div",p,[_(o)])])])])}const x=c(a,[["render",m]]);export{x as default};

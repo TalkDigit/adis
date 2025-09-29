@@ -1,0 +1,1 @@
+import{s as t}from"./gyDuP2bA.js";const u=(e,n)=>{const{locale:l}=t();return e.increased?e.element[0].value[l.value]:e.element?e.element.find(a=>a.key==n).value[l.value]:e.find(a=>a.key==n).value[l.value]};export{u as g};

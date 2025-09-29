@@ -956,7 +956,7 @@ async function getRouteRules(url) {
     return defu({}, ..._routeRulesMatcher.matchAll(url).reverse());
   }
 }
-const component_45stubrjYXWjWJ1W = {};
+const component_45stubxor60bpLIf = {};
 const _routes = [
   {
     name: "aboutUs",
@@ -986,7 +986,7 @@ const _routes = [
   {
     name: "projects",
     path: "/projects",
-    component: () => import('./projects-DqI7ofAN.mjs').then((m) => m.default || m)
+    component: () => import('./projects-CXSUe_eI.mjs').then((m) => m.default || m)
   },
   {
     name: "search",
@@ -996,7 +996,7 @@ const _routes = [
   {
     name: void 0 ,
     path: "/sitemap.xml",
-    component: component_45stubrjYXWjWJ1W
+    component: component_45stubxor60bpLIf
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -1128,7 +1128,7 @@ const routerOptions1 = {
     {
       name: "projects",
       path: "/projects",
-      component: () => import('./projects-DqI7ofAN.mjs')
+      component: () => import('./projects-CXSUe_eI.mjs')
     },
     {
       name: "contact",
@@ -2193,7 +2193,7 @@ const LazyModuleHomeTabSection = defineAsyncComponent(() => import('./HomeTabSec
 const LazyModuleHomeTabold = defineAsyncComponent(() => import('./HomeTabold-B315FVMN.mjs').then((r) => r["default"] || r.default || r));
 const LazyModuleKvkk = defineAsyncComponent(() => import('./Kvkk-V21-pvaN.mjs').then((r) => r["default"] || r.default || r));
 const LazyModuleKvkkMetin = defineAsyncComponent(() => import('./KvkkMetin-vbyeGfgC.mjs').then((r) => r["default"] || r.default || r));
-const LazyModuleMapsSection = defineAsyncComponent(() => import('./MapsSection-BMITBuBb.mjs').then((r) => r["default"] || r.default || r));
+const LazyModuleMapsSection = defineAsyncComponent(() => import('./MapsSection-HRMcHRpu.mjs').then((r) => r["default"] || r.default || r));
 const LazyModuleMapss = defineAsyncComponent(() => import('./Mapss-k2t6IpTx.mjs').then((r) => r["default"] || r.default || r));
 const LazyModuleProjects = defineAsyncComponent(() => import('./Projects-CpZgX6lK.mjs').then((r) => r["default"] || r.default || r));
 const LazyModuleSocialSlider = defineAsyncComponent(() => import('./SocialSlider-Y-IWpOy9.mjs').then((r) => r["default"] || r.default || r));
@@ -2202,7 +2202,7 @@ const LazyModuleExampleListModule = defineAsyncComponent(() => import('./example
 const LazyModuleExampleModule = defineAsyncComponent(() => import('./exampleModule-CYVgnLex.mjs').then((r) => r["default"] || r.default || r));
 const LazyModuleForm = defineAsyncComponent(() => import('./form-1nqdbPuL.mjs').then((r) => r["default"] || r.default || r));
 const LazyModuleLang = defineAsyncComponent(() => import('./lang-CI-YMkYr.mjs').then((r) => r["default"] || r.default || r));
-const LazyModuleMapsdark = defineAsyncComponent(() => import('./mapsdark-_KoteKrh.mjs').then((r) => r["default"] || r.default || r));
+const LazyModuleMapsdark = defineAsyncComponent(() => import('./mapsdark-BefkEMS9.mjs').then((r) => r["default"] || r.default || r));
 const lazyGlobalComponents = [
   ["CustomSlider", LazyCustomSlider],
   ["IconsTarget", LazyIconsTarget],

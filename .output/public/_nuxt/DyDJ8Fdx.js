@@ -1,1 +1,0 @@
-import{g as r}from"./Bu8GIsM2.js";import{c as e,o as a,F as l,l as s,a as o,k as u}from"./BtKcbElo.js";const c=["innerHTML"],f={__name:"exampleListModule",props:["data"],setup(t){const{data:d}=t;return(i,m)=>(a(),e("div",null,[(a(!0),e(l,null,s(t.data.element.module,n=>(a(),e("div",null,[o("p",{innerHTML:u(r)(n,"baslik")},null,8,c)]))),256))]))}};export{f as default};
